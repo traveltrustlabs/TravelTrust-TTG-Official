@@ -7,7 +7,5 @@
 - **NO-MINT** after genesis
 - Supply decreases only via **Governance Burn** (Governor → SoloTimelock → authorized burner)
 - Non-proxy token body; monetary invariants hard-coded
-- Phase1 address: `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` · status `DEPLOYED_PENDING_CUTOVER`
+- Living token (table 1-01 · **01**): `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` · doorplate live · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 - TTG is **not** default travel-order settlement (USDC is)
-- Primary market: Official release five short windows (Genesis calibration → Final public round) · **not open** · [Primary Market](Primary-Market.md)
-- Official PM/Vault Timelock delay: **12h** (Phase1 48h = LEGACY) · [Governance](Governance.md)

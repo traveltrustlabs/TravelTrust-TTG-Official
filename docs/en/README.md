@@ -10,7 +10,7 @@
 | Pack | Status |
 |------|--------|
 | [Sepolia TESTNET / V9 rehearsal](../deployments/sepolia.md) | **Published** |
-| [Mainnet Phase1 short table](Mainnet-Deployments.md) · [ACTIVE Contract Registry](Contract-Registry.md) | **Published** (`DEPLOYED_PENDING_CUTOVER` · ≠ Fully Active) |
+| [Mainnet table 1-01](Mainnet-Deployments.md) · [ACTIVE Contract Registry (fifteen machines)](Contract-Registry.md) | **Published** (living roster · ≠ Fully Active) |
 | Etherscan verified source pack | **Wave 2** |
 
 ## Navigate

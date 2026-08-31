@@ -7,7 +7,6 @@
 **`TT_PRODUCTION_GO`:** NO_GO  
 
 > **Honesty rule:** This page describes **testnet rehearsal** addresses only.  
-> Sepolia also uses a **12h** Timelock, on a **different chain and address** than Mainnet Official NEW 12h (`0xF61880fe…`).  
 > **Do not** treat Sepolia deploy as Mainnet production GO or Official www Web3 SSOT.  
 > Mainnet deployment pack (`docs/deployments/mainnet.md`) is published **after** V9 Mainnet Reality closes.
 

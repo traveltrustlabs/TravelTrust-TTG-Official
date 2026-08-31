@@ -1,27 +1,26 @@
-# TravelTrust · TTG V9 Mainnet Edition Whitepaper（中文正式版）
+# TravelTrust · TTG V9 主网版白皮书
 
-**Document ID:** `TTG_V9_MAINNET_EDITION_WHITEPAPER`  
-**Edition:** Mainnet Edition · Design Lock **DL_R1**  
-**Language:** zh-CN  
-**STATUS:** Living Official protocol whitepaper for TTG V9 economics & topology  
-**Public edition:** derived from Design Lock DL_R1 documentation baseline (private monorepo not published).
-**Design Lock:** `TT-TTG-V9-OWNER-DESIGN-LOCK-LATEST`  
-**EN twin:** [`TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md`](TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md)  
-**Public review:** documentation-only pack in this repository (no private CI gates).
+**文档编号：** `TTG_V9_MAINNET_EDITION_WHITEPAPER`  
+**版本：** 主网版 · 设计锁定 DL_R1  
+**语言：** 中文  
+**状态：** 现网协议白皮书（经济与拓扑）  
+**公开说明：** 供公众阅读的正式文本。  
+**活名册：** 以 TravelTrust Web3 发布说明「表 1-01 · 十五台」为准。请到官网「项目动态与公告」的「协议」页核对全部地址。第一阶段旧简表地址标为历史，不得当作现网活地址。  
+**设计锁定：** `TT-TTG-V9-OWNER-DESIGN-LOCK-LATEST`  
 
 > **一般性信息**；不构成任何司法辖区的发售要约、证券或虚拟资产要约，亦不构成投资、税务或法律建议。正式披露以发布公告、用户协议及双方签署文本为准。
 
 ---
 
-## 0 · 链上状态机（写死）
+## 0 · 现在能做什么
 
-| 状态 | 含义 | 当前 |
-|------|------|------|
-| `MAINNET_DEPLOYED_PHASE1` / `DEPLOYED_PENDING_CUTOVER` / `TIMELOCK_CUTOVER_PENDING` | V9 栈与 Genesis 已部署；Solo 定时操作与 KEEP `setFeeRouter` **未完成** | **YES** |
-| `MAINNET_FULLY_ACTIVE` / `ACTIVE_OFFICIAL` | Solo execute + KEEP SettlementRouter→NEW CountryFeeRouter + Reality 验证完成 | **NO** |
-| `TT_PRODUCTION_GO` | Owner 独立书面 Production GO | **NO_GO**（本白皮书不签发） |
+本页不是证券发行，也不是投资要约。行程订金用 USDC 锁进托管合约；换 TTG 是另一件事，且兑换窗口尚未对公众开放。治理改规则要等 **12 小时**。没有书面生产放行。
 
-**纪律：** 本文描述 Design Lock **目标协议语义**与 Phase1 **已部署事实**；**禁止**将当前 Mainnet 表述为 Fully Active Official。
+| 事实 | 现在 |
+|------|------|
+| 协议已部署在以太坊主网 | 是 |
+| 公售窗口对公众开放 | 否 |
+| 书面生产放行 | 否 |
 
 ---
 
@@ -29,13 +28,13 @@
 
 TravelTrust 是去中心化旅行商业协议栈：
 
-- **Marketplace** — 发现与撮合  
-- **On-chain Escrow（KEEP）** — 里程碑资金约束与释放  
-- **Fee / Project Pool（NEW）** — 平台服务费与公售 USDC 归集  
-- **Role Stake（NEW）** — 区域主理人 TTG Seat；Merchant/Guide TTG = **`NOT_REQUIRED` / `DISABLED`**（非默认待办）；向导履约 = **逐订单 USDC Performance Bond**（≠ 81 Identity；完成返还 · Dispute 后可罚没）；商家 Bond **独立未确认**；Escrow = 游客本金正交  
-- **Governance（NEW）** — Official PM/Vault 定时操作延迟 **12h** NEW SoloTimelock；Phase1 OLD 48h SoloTimelock 在 PATH_A 之后为 **LEGACY**  
+- **市场** — 发现与撮合  
+- **链上托管** — 按里程碑锁定并释放游客本金  
+- **平台费与项目美元池** — 平台服务费与公售美元归集  
+- **角色质押** — 区域主理人用 TTG 占席；商家与向导默认不质押 TTG；向导履约用逐订单美元保证金（完成返还，争议后可罚没）；商家保证金规则独立未确认；托管本金与此正交  
+- **治理** — 公售柜台与币库的定时操作延迟十二小时。已退役地址见文末历史附录。  
 
-**TTG** 是协议治理与预算程序资产，**不是**旅行订单默认结算资产。订单本金以允许列表内稳定币（Mainnet 以 **USDC**）为主，并与协议费路径分轨。
+**TTG** 是协议治理与预算程序资产，**不是**旅行订单默认结算资产。订单本金以允许列表内稳定币（主网以 **USDC**）为主，并与协议费路径分轨。
 
 ---
 
@@ -57,9 +56,9 @@ TravelTrust 是去中心化旅行商业协议栈：
 |----|------|-------------|---------------------|
 | Public Sale Vault | **50%** | 12.5T | NEW PublicSaleVault |
 | DAO / SoloTimelock | **35%** | 8.75T | NEW SoloTimelock |
-| Team | **3%** | 0.75T | `0x010365…` |
-| Marketing | **5%** | 1.25T | `0xe1e732…` |
-| Treasury / Ops | **7%** | 1.75T | `0xF34804…` |
+| Team | **3%** | 0.75T | `0x010365F0835323826569D61D0E13E6F8d25F6828` |
+| Marketing | **5%** | 1.25T | `0xe1e732EfBf9B010a9204054467256d3d93f3CdD4` |
+| Treasury / Ops | **7%** | 1.75T | `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736` |
 
 Norm 钱包角色（ACTIVE）：
 
@@ -106,7 +105,7 @@ Fee 调用方（目标）：仅已验证 Escrow / Settlement 路径；Mainnet **
 
 ## 6 · 区域主理人准入费
 
-- **300,000 USDC** Access Fee → Treasury/Guardian `0xF34804…`  
+- **300,000 USDC** Access Fee → Treasury/Guardian `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736`  
 - 质押门槛另见 Role Stake（与 Access Fee 正交）。
 
 ---
@@ -126,41 +125,44 @@ Fee 调用方（目标）：仅已验证 Escrow / Settlement 路径；Mainnet **
 ## 8 · ProjectPool 运营拨付（P4 类）
 
 - NEW ProjectPool 为 Official 公售 USDC 与无主理人/主理人份额汇入的总池。  
-- 运营拨付：propose → SoloTimelock → `to = 0xF34804…`。  
+- 运营拨付：propose → SoloTimelock → `to = 0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736`。  
 - **90 天窗口内累计 ≤ 30%**（live-cap 语义，Design Lock）。  
 - Legacy P4Cap `0xfB906…` = **LEGACY** · 非 V9 公售 sink。
 
 ---
 
-## 9 · 治理与 Timelock
+## 9 · 治理与等待门
 
 ```text
-Governor  →  SoloTimelock Official delay = 12h (NEW 0xF61880fe…, admin = 0xe1e732…)
-             Phase1 OLD 48h 0x99e43F… = LEGACY after PATH_A
-              ├─ Market / Vault / Fee / Stake / Pool ops
-              └─ Governance Burn 授权路径
+投票机  →  12 小时门（活地址 0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A）
+             预约钥是人钥 0xe1e732EfBf9B010a9204054467256d3d93f3CdD4（不是合约、不是国库）
+              ├─ 公售 / 币库 / 费用 / 席位 / 资金池
+              └─ 治理销毁授权
 ```
 
-- **无 Safe 作为 V9 Official Timelock admin。**  
-- Legacy Safe `0x96491…` + KEEP Timelock `0x50F0…`：**仅**允许一次性 KEEP SettlementRouter `setFeeRouter(NEW CountryFeeRouter)`；完成后仍属 **LEGACY**，不得升格为 V9 Official 治理根。
+- **没有把多签当作现网 12 小时门的管理员。**  
+- 已退役多签与旧等待门见文末历史附录，请勿向其转账。
 
 ---
 
 ## 10 · Mainnet 架构：NEW / KEEP / LEGACY
 
-### NEW（V9 Official）
+### NEW（V9 Official · 表 1-01 活名册）
 
-| 组件 | Phase1 地址 | 文档状态 |
-|------|-------------|----------|
-| TTG V9 | `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` | `DEPLOYED_PENDING_CUTOVER` |
-| SoloTimelock（Official 12h） | `0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A` | `LIVING_OFFICIAL_DELAY` |
-| SoloTimelock（Phase1 OLD 48h） | `0x99e43FaBA8dC773888223f70e1dfCd18bea37D7f` | `LEGACY` after PATH_A |
-| ProjectPool | `0x7B21b421981A3B61cc08c8E22D4fd690E457Df37` | `DEPLOYED_PENDING_CUTOVER` |
-| CountryFeeRouter | `0x5afD2e0C8b9fa4eecfde4bf582d3B282D28F4970` | `DEPLOYED_PENDING_CUTOVER` |
-| Vault | `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C` | `DEPLOYED_PENDING_CUTOVER` |
-| Market | `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` | `DEPLOYED_PENDING_CUTOVER` |
-| Governor | `0xA0DfC4C5C544488AfEfE696AfB8e5823911e5A9c` | `DEPLOYED_PENDING_CUTOVER` |
-| RoleStake | `0xf6A1Fb4435E463117a666818611F49D03F91E7A7` | `DEPLOYED_PENDING_CUTOVER` |
+| # | 组件 | 活地址 | 文档状态 |
+|---|------|--------|----------|
+| 01 | TTG V9 | `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` | `DEPLOYED_PENDING_CUTOVER` |
+| 02 | Governor | `0xD4b6162CB344af2C44689717edDFEe21e9082205` | 门牌齐 |
+| 03 | SoloTimelock（Official 12h） | `0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A` | `LIVING_OFFICIAL_DELAY` |
+| 04 | FeeRouterV2 | `0x2F3F4120d9d10b52f7FF762aC7E8f563454A9704` | 规则在 · 没人喊 |
+| 05 | ProjectPoolV2 | `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68` | 收款口已切 |
+| 06 | PrimaryMarket | `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` | 五轮未开售 |
+| 07 | Vault | `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C` | 钥 12h · 未烧 |
+| 08 | 行程平台费合约（现行） | `0xa20a2987c688b8CAB21E1f54B6Ad103926B4082b` | 现行平台费落点 |
+| 10 | RoleStake | `0xa9839Ef49e1Cc6095b41764DCf81346250A469F8` | 实现旧 · upgrade 已预约 |
+| 13 | Completion adapter | `0x94e2be00877c4519805408e10e16e33625863c74` | 已预约等 12h |
+| 14 | 暂停钥（人钥，不是合约） | `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736` | 运营钱包 |
+| 15 | 预约钥（人钥，不是合约） | `0xe1e732EfBf9B010a9204054467256d3d93f3CdD4` | 运营钱包 |
 
 ### KEEP（Money Path）
 
@@ -178,6 +180,10 @@ Governor  →  SoloTimelock Official delay = 12h (NEW 0xF61880fe…, admin = 0xe
 | Remint / `R2_FINAL` / 旧 V9 Candidate | LEGACY / SUPERSEDED / DO_NOT_USE |
 | Safe / KEEP Timelock / 旧 P4Cap 作为 V9 admin/sink | LEGACY（Safe+KEEP Timelock 仅 one-shot 切针） |
 | Phase1 OLD SoloTimelock `0x99e43FaBA8dC773888223f70e1dfCd18bea37D7f`（48h） | LEGACY · Official PM/Vault 已用 NEW 12h |
+| Phase1 Governor `0xA0DfC4C5C544488AfEfE696AfB8e5823911e5A9c` | LEGACY · 活投票机为表 1-01 #02 |
+| Phase1 ProjectPool `0x7B21b421981A3B61cc08c8E22D4fd690E457Df37` | LEGACY · 活池为表 1-01 #05 |
+| Phase1 CountryFeeRouter `0x5afD2e0C8b9fa4eecfde4bf582d3B282D28F4970` | LEGACY · 非 KEEP 活针 |
+| Phase1 RoleStake `0xf6A1Fb4435E463117a666818611F49D03F91E7A7` | LEGACY · 活席位为表 1-01 #10 |
 | `globalStakers` / 83 旧 Fee 四腿 ACTIVE 运营 | EXIT / LEGACY |
 
 ---
@@ -188,8 +194,8 @@ Governor  →  SoloTimelock Official delay = 12h (NEW 0xF61880fe…, admin = 0xe
 - Fee：固定 5% 起点 · 变更仅治理 · 国家 payout 经 Timelock 写入。  
 - Pool：90d≤30% 运营上限 · ops 收款固定 Treasury。  
 - Stake：Steward live supply × bps ACTIVE · Merchant/Guide TTG = **NOT_REQUIRED / DISABLED** · Guide 履约 = 逐订单 USDC Bond（≠ 81）· Merchant Bond 独立未确认 · Escrow 正交。  
-- Official SoloTimelock：**12h** 延迟（PM/Vault）· admin = Marketing Norm · **≠ Safe**。Phase1 OLD **48h** `0x99e43F…` = **LEGACY**。  
-- AI triad + Sepolia DL_R1 regression + Mainnet Pre-Broadcast Final 为审计候选路径证据；**不等价** `TT_PRODUCTION_GO`。
+- 治理等待门：**12 小时**。预约钥是人钥，不是国库。  
+- 本文件不作生产放行。
 
 ---
 
@@ -206,13 +212,14 @@ Governor  →  SoloTimelock Official delay = 12h (NEW 0xF61880fe…, admin = 0xe
 
 - 当前链上状态为 **Phase1 / cutover pending**；公售批次可能尚未 seed；Fee 可能尚未切到 NEW Router。  
 - 监管、税务、司法辖区准入另案；本文不作法律意见。  
-- **Production GO** 仍需 Owner 书面裁决；本文件 **STOP** 于白皮书 PASS，不翻转 `TT_PRODUCTION_GO`。
+- 书面生产放行仍为 **NO_GO**；本文件不签发。
 
 ---
 
 ## 中文要点
 
-- 正式白皮书 = **Design Lock DL_R1** 语义 + Phase1 地址事实。  
-- 25T / NO-MINT · 50/35/3/5/7 · 五批一级市场 · USDC→ProjectPool · 5% · 45/55 或 100% · 30万准入 · Steward live Role Stake · Merchant/Guide TTG NOT_REQUIRED/DISABLED · 90d≤30% · Official SoloTimelock **12h**（OLD 48h LEGACY）。  
-- **无** globalStakers / 83 ACTIVE / R2_FINAL ACTIVE / 旧 P4Cap 公售 / Safe 作 V9 admin（均为 **LEGACY / DO_NOT_USE_AS_ACTIVE_TRUTH**）。  
-- Mainnet = **`MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING`** · **≠ Fully Active** · **≠ Production GO**。
+- 行程订金用 USDC 托管；TTG 是治理代币，兑换窗口尚未开放。  
+- 创世分配 50 / 35 / 3 / 5 / 7；总量 25 万亿，不能增发。  
+- 现网治理等待 **12 小时**。14、15 号是人钥，不是合约。  
+- 已退役地址只放在历史附录，请勿向其转账。  
+- 本页不是证券发行，也没有书面生产放行。

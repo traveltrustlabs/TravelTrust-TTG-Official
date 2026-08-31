@@ -12,4 +12,4 @@
 **禁止：** 把 81 Identity 长期身份质押写成订单履约押。实现审计：**`NEW_ORDER_BOND_MODULE_REQUIRED`**。
 
 初始 Steward bps：CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/AE 150。  
-地址：`0xf6A1Fb4435E463117a666818611F49D03F91E7A7` · `DEPLOYED_PENDING_CUTOVER`
+活地址（表 1-01 · **10 主理人席位**）：干什么 = **主理人用 TTG 占席；30 万打 14、币锁本台**。`0xa9839Ef49e1Cc6095b41764DCf81346250A469F8` · 实现仍旧，须 12h `upgradeTo`（SeatLock）后申请/退出才全真。Phase1 旧址 `0xf6A1Fb…` = **LEGACY**。

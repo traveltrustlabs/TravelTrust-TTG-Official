@@ -1,25 +1,10 @@
 # Mainnet 部署
 
-**上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**上游：** 表 1-01 · 十五台（TravelTrust Web3 发布说明）  
+**chain_id = 1** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-**chain_id = 1**。Phase1 栈已部署；切流操作 **pending**。
+活名册与地址以 [合约登记](Contract-Registry.md) 的 **表 1-01** 为准。本页不重复 Phase1 旧简表。
 
-| Role | Address | Status |
-|------|---------|--------|
-| TTG V9 | `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` | `DEPLOYED_PENDING_CUTOVER` |
-| SoloTimelock（Official 12h） | `0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A` | `LIVING_OFFICIAL_DELAY` |
-| SoloTimelock（Phase1 OLD 48h） | `0x99e43FaBA8dC773888223f70e1dfCd18bea37D7f` | `LEGACY` after PATH_A |
-| ProjectPool | `0x7B21b421981A3B61cc08c8E22D4fd690E457Df37` | `DEPLOYED_PENDING_CUTOVER` |
-| CountryFeeRouter | `0x5afD2e0C8b9fa4eecfde4bf582d3B282D28F4970` | `DEPLOYED_PENDING_CUTOVER` |
-| PublicSaleVault | `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C` | `DEPLOYED_PENDING_CUTOVER` |
-| Batch Primary Market | `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` | `DEPLOYED_PENDING_CUTOVER` |
-| Governor | `0xA0DfC4C5C544488AfEfE696AfB8e5823911e5A9c` | `DEPLOYED_PENDING_CUTOVER` |
-| RoleStake | `0xf6A1Fb4435E463117a666818611F49D03F91E7A7` | `DEPLOYED_PENDING_CUTOVER` |
-| KEEP EscrowFactoryV2Wired | `0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6` | `KEEP` |
-| KEEP SettlementRouter | `0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372` | `KEEP` · `setFeeRouter` pending |
-| USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | `KEEP` |
+还没齐（不是少了一台）：席位 `upgradeTo`（SeatLock）· 下一台分账切针 · 完成单接头 caller · Official www 说明书按钮 · Production GO。
 
-待完成（非 Fully Active）：Solo `idBind` / `idSeed` / `idCallerSr` / `idCallerEf` · KEEP `setFeeRouter(NEW CountryFeeRouter)`。
-
-> **完整 OLD/NEW 地址全表：** 见卫星仓 [09-contract-addresses](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market/blob/main/docs/zh-CN/09-contract-addresses.md)。本页仅为 **Phase1 简表**；上表含迁移完成前的 OLD 栈，勿误读为终局 Official。
+> 旧 Phase1 地址（旧池 / 旧分账 / 旧 Governor / 旧席位）只在 [Legacy 政策](Legacy-Policy.md)。

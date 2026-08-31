@@ -27,7 +27,3 @@
 
 - `globalStakers` **35.75%** = **EXIT / LEGACY**
 - Old “83” four-leg Fee ACTIVE ops = **LEGACY**
-
-## Primary market (Official Web3 release notes)
-
-Five short windows (Genesis calibration / Community early bird / Builder / Public / Final public) · about **3.905%** of 25T · **not open**. Official delay **12h**. Full table: [Primary Market](Primary-Market.md) · [release notes](../RELEASE-NOTES.md).

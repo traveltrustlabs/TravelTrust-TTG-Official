@@ -10,7 +10,7 @@
 | 资料包 | 状态 |
 |--------|------|
 | [Sepolia 测试网 / V9 排练](../deployments/sepolia.md) | **已发布** |
-| [Mainnet Phase1 简表](Mainnet-Deployments.md) · [ACTIVE 合约登记](Contract-Registry.md) | **已发布**（`DEPLOYED_PENDING_CUTOVER` · ≠ Fully Active） |
+| [Mainnet 表 1-01](Mainnet-Deployments.md) · [ACTIVE 合约登记（十五台）](Contract-Registry.md) | **已发布**（活名册 · ≠ Fully Active） |
 | Etherscan 已验证源码全包 | **Wave 2** |
 
 ## 导航

@@ -1,20 +1,26 @@
-# 合约登记（仅 ACTIVE）
+# 合约登记（表 1-01 · 十五台）
 
-**上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**上游：** TravelTrust Web3 发布说明（现行 Canvas / 卫星仓 HTML）· **≠** Phase1 旧简表  
+**Mainnet：** 十五台为活名册 · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-**ACTIVE 登记仅含 NEW + KEEP。** Legacy 地址只出现在 [Legacy 政策](Legacy-Policy.md)，**不得**当作 Official V9 ACTIVE 根。
+名册只列新 Web3：**最新 + 可升级 + 准备部署 + 人**。旧钥匙、退役车间见 [Legacy 政策](Legacy-Policy.md)，**不得**当作 Official 活根。
 
-| Role | Address | Status |
-|------|---------|--------|
-| TTG V9 | `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` | `DEPLOYED_PENDING_CUTOVER` |
-| SoloTimelock（Official PM/Vault · 12h） | `0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A` | `LIVING_OFFICIAL_DELAY` |
-| ProjectPool | `0x7B21b421981A3B61cc08c8E22D4fd690E457Df37` | `DEPLOYED_PENDING_CUTOVER` |
-| CountryFeeRouter | `0x5afD2e0C8b9fa4eecfde4bf582d3B282D28F4970` | `DEPLOYED_PENDING_CUTOVER` |
-| PublicSaleVault | `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C` | `DEPLOYED_PENDING_CUTOVER` |
-| Batch Primary Market | `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` | `DEPLOYED_PENDING_CUTOVER` |
-| Governor | `0xA0DfC4C5C544488AfEfE696AfB8e5823911e5A9c` | `DEPLOYED_PENDING_CUTOVER` |
-| RoleStake | `0xf6A1Fb4435E463117a666818611F49D03F91E7A7` | `DEPLOYED_PENDING_CUTOVER` |
-| KEEP EscrowFactoryV2Wired | `0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6` | `KEEP` |
-| KEEP SettlementRouter | `0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372` | `KEEP` · `setFeeRouter` pending |
-| USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | `KEEP` |
+| # | 这台叫啥 | 干什么 | 新不新 | 链上好了没 | 地址 |
+|---|----------|--------|--------|------------|------|
+| 01 | 治理代币 | 投票、公售、主理人计量用的治理币，不能再印 | 已经是这台 | 门牌齐 | `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` |
+| 02 | 投票机 | 持币人约 7 天投票；通过后再进 12 小时门 | 已经是这台 | 门牌齐 | `0xD4b6162CB344af2C44689717edDFEe21e9082205` |
+| 03 | 12 小时门 | 最后 12 小时等待门；到期谁都能按执行 | 已经是这台 | 门在 · 钥已交 | `0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A` |
+| 04 | 现在的平台费分账机 | 只分已抽出的平台费（现在默认 5%） | 已经是这台 | 规则在 · 没人喊 | `0x2F3F4120d9d10b52f7FF762aC7E8f563454A9704` |
+| 05 | 项目美元池 | 公售美元和无席位平台费进这一口 | 已经是这台 | 收款口已切 | `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68` |
+| 06 | 公售柜台 | 五轮短窗用美元换 TTG；这五轮产品锁死 | 可升级 · 五轮已锁 | 五轮未开售 | `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` |
+| 07 | 公售币库 | 创世 50% TTG 库；卖剩退回；烧走 12 小时门 | 已经是这台 | 钥 12h · 未烧 | `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C` |
+| 08 | 行程平台费合约（现行） | 结算路由当前把平台费打到这里 | 已经是这台 | 现行落点 | `0xa20a2987c688b8CAB21E1f54B6Ad103926B4082b` |
+| 09 | 美元稳定币 | Circle 美元；公售、订金、准入都认它 | 已经是这台 | Circle 已钉 | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` |
+| 10 | 主理人席位 | 主理人用 TTG 占席；30 万打 14、币锁本台 | 还要换内部 | 实现旧 · upgrade 已预约 | `0xa9839Ef49e1Cc6095b41764DCf81346250A469F8` |
+| 11 | 开单工厂 | 官网下单时印托管单的工厂 | 已经是这台 | 针已切 · 钥已交 | `0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6` |
+| 12 | 放款车间 | 完成单后放本金、抽 5% 交给分账 | 已经是这台 | 认 V2 · 切针已预约 | `0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372` |
+| 13 | 完成单喊分账的接头 | 放款后喊分账并带国家码；不改 KEEP | 有门牌未接线 | 有门牌 · 已预约等 12h | `0x94e2be00877c4519805408e10e16e33625863c74` |
+| 14 | 暂停钥（人钥） | 运营钱包：暂停公售；默认收款与 30 万准入。不是智能合约。 | 按键的人 | 三职在 | `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736` |
+| 15 | 预约钥（人钥） | 运营钱包：给 12 小时门做预约。不是国库，也不是智能合约。 | 按键的人 | 预约钥在 | `0xe1e732EfBf9B010a9204054467256d3d93f3CdD4` |
+
+打开某一台的 20 栏说明书：卫星仓 [TravelTrust-Web3-发布说明.html](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market/blob/main/TravelTrust-Web3-%E5%8F%91%E5%B8%83%E8%AF%B4%E6%98%8E.html) → 表 1-01 → **打开**。

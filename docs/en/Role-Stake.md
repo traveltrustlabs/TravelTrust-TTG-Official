@@ -12,4 +12,4 @@
 **Forbidden:** treating 81 long-lived Identity stake as the order performance bond. Implementation audit: **`NEW_ORDER_BOND_MODULE_REQUIRED`**.
 
 Initial Steward bps: CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/AE 150.  
-Address: `0xf6A1Fb4435E463117a666818611F49D03F91E7A7` · `DEPLOYED_PENDING_CUTOVER`
+Living address (table 1-01 · **10 RoleStake**): does = **steward TTG seat; 300k to #14, TTG locked in this machine**. `0xa9839Ef49e1Cc6095b41764DCf81346250A469F8`. Impl is still old; 12h `upgradeTo` (SeatLock) before claiming apply/exit is live on mainnet. Phase1 `0xf6A1Fb…` = **LEGACY**.

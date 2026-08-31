@@ -3,7 +3,22 @@
 **上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
 **Mainnet：** 公售时间表已 pin 为 `V9_SHORT_WINDOW_FIVE_ROUND`（Timelock execute 2026-08-26）· 兑换窗口 **尚未对公众开放** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-NEW Batch Primary Market + PublicSaleVault 执行 Norm 五轮短窗口（官网发布说明名称：创始校准 / 社区早鸟 / 建设者轮 / 公开轮 / 最终公开轮；合计约占 25T 的 **3.905%**）：
+NEW Batch Primary Market + PublicSaleVault 执行 Norm 五轮短窗口（官网发布说明名称：创始校准 / 社区早鸟 / 建设者轮 / 公开轮 / 最终公开轮；合计约占 25T 的 **3.905%**）。
+
+**Web3 真源是表 1-01。** 买 TTG 只认这些台（干什么与 Canvas 锁死句同一套）：
+
+| # | 这台叫啥 | 干什么 |
+|---|----------|--------|
+| 01 | 治理代币 | 投票、公售、主理人计量用的治理币，不能再印 |
+| 03 | 12 小时门 | 最后 12 小时等待门；到期谁都能按执行 |
+| 05 | 项目美元池 | 公售美元和无席位平台费进这一口 |
+| 06 | 公售柜台 | 五轮短窗用美元换 TTG；这五轮产品锁死 |
+| 07 | 公售币库 | 创世 50% TTG 库；卖剩退回；烧走 12 小时门 |
+| 09 | 美元稳定币 | Circle 美元；公售、订金、准入都认它 |
+| 14 | 暂停人 | 暂停公售；工资与 30 万默认收款 |
+| 15 | 预约人 | 12 小时门预约人；不是国库 |
+
+11 开单工厂 / 12 放款车间 / 04 分账 / 10 席位 / 08 下一台分账 / 13 接头是**订行程钱路**，不是公售柜台。十五台全表：[合约登记](Contract-Registry.md) · 看板 HTML。
 
 | 轮次 | 名称 | Cap（TTG） | 约 USDC / 1 TTG | UTC 窗口 |
 |------|------|------------|-----------------|----------|
@@ -16,5 +31,5 @@ NEW Batch Primary Market + PublicSaleVault 执行 Norm 五轮短窗口（官网�
 - 价格阶梯不变：`1 / 3 / 5 / 7 / 9` µUSDC per whole TTG（约 `$0.000001` → `$0.000009`）
 - 轮次之间留空档（避开圣诞与春节）。窗口是 `[start, end)`。
 - `pinSaleScheduleFromNorm` 已经过 NEW 12h Timelock **execute**；五批仍 **unarmed**。公布计划 **不等于** 现在可以买入。
-- **公售 USDC → NEW ProjectPool** · 永远不是 Legacy P4Cap
-- Market：`0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` · Vault：`0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C`
+- **公售 USDC → 表 1-01 · 05 项目美元池** `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68` · 永远不是 Legacy P4Cap / 旧池 `0x7B21…`
+- **06 公售柜台：** `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` · **07 公售币库：** `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C` · 日程 pin 走 **03 十二小时门**

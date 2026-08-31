@@ -27,7 +27,3 @@
 
 - `globalStakers` **35.75%** = **EXIT / LEGACY**
 - 旧「83」四腿 Fee ACTIVE 运营 = **LEGACY**
-
-## 一级市场（官网 TravelTrust Web3 发布说明）
-
-五轮短窗口（创始校准 / 社区早鸟 / 建设者轮 / 公开轮 / 最终公开轮）· 合计约占 25T 的 **3.905%** · **窗口尚未开放**。Official 延迟 **12h**。完整表：[一级市场](../zh/Primary-Market.md) · [发布说明](../RELEASE-NOTES.md)。

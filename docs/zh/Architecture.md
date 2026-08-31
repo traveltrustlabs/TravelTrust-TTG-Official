@@ -3,21 +3,39 @@
 **上游：** Documentation Truth Baseline · `V9_DOCUMENTATION_FULL_CONVERGENCE_PASS` · `TTG_V9_MAINNET_EDITION_WHITEPAPER_PASS` · Design Lock **DL_R1**  
 **Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-TravelTrust Web3 Mainnet Edition 采用 **NEW / KEEP / LEGACY** 三分：
+TravelTrust Web3 活名册 **只有表 1-01 十五台**（干什么以 Canvas / 看板 HTML 为准）。**KEEP** 是产品词：11 开单工厂、12 放款车间 **继续用这扇门牌**，它们仍在表 1-01，不是 LEGACY。
 
 | 类别 | 含义 |
 |------|------|
-| **NEW** | V9 Official Token、SoloTimelock、Governor、Vault、Market、ProjectPool、CountryFeeRouter、RoleStake |
-| **KEEP** | EscrowFactoryV2Wired + SettlementRouter + USDC 资金面（用户本金） |
-| **LEGACY** | Safe / 旧 Timelock / P4Cap / V8 / Remint / R2_FINAL — **不入** ACTIVE 合约登记 |
+| **表 1-01** | 十五台活机（见下表「干什么」） |
+| **KEEP** | 11 / 12 门牌不换（订行程本金走这里） |
+| **LEGACY** | Safe / 旧 48h Timelock / P4Cap / Phase1 旧池·旧分账·旧 Governor·旧席位 / V8 / Remint — **不入** 表 1-01 |
+
+| # | 这台叫啥 | 干什么 |
+|---|----------|--------|
+| 01 | 治理代币 | 投票、公售、主理人计量用的治理币，不能再印 |
+| 02 | 投票机 | 持币人约 7 天投票；通过后再进 12 小时门 |
+| 03 | 12 小时门 | 最后 12 小时等待门；到期谁都能按执行 |
+| 04 | 现在的平台费分账机 | 只分已抽出的平台费（现在默认 5%） |
+| 05 | 项目美元池 | 公售美元和无席位平台费进这一口 |
+| 06 | 公售柜台 | 五轮短窗用美元换 TTG；这五轮产品锁死 |
+| 07 | 公售币库 | 创世 50% TTG 库；卖剩退回；烧走 12 小时门 |
+| 08 | 下一台分账 | 下一台分账；问席位、退出停分（针未切） |
+| 09 | 美元稳定币 | Circle 美元；公售、订金、准入都认它 |
+| 10 | 主理人席位 | 主理人用 TTG 占席；30 万打 14、币锁本台 |
+| 11 | 开单工厂 | 官网下单时印托管单的工厂 |
+| 12 | 放款车间 | 完成单后放本金、抽 5% 交给分账 |
+| 13 | 完成单接头 | 放款后喊分账并带国家码；不改 KEEP |
+| 14 | 暂停人 | 暂停公售；工资与 30 万默认收款 |
+| 15 | 预约人 | 12 小时门预约人；不是国库 |
 
 ```text
-订单(+ISO 国家) → KEEP Escrow / Settlement
-  → 平台费 5% → NEW CountryFeeRouter
-       ├─ 有主理人 → 45% 登记钱包 / 55% NEW ProjectPool
-       └─ 无主理人 → 100% NEW ProjectPool
-公售 USDC → NEW ProjectPool（永远不是 Legacy P4Cap）
-Governor → SoloTimelock 12h (Official PM/Vault) → 外围运维 / Governance Burn
+订单(+ISO 国家) → 11 工厂 / 12 放款车间
+  → 平台费 5% → 04 分账机
+       ├─ 有主理人 → 45% 席位收款钱包 / 55% 05 项目美元池
+       └─ 无主理人 → 100% 05
+公售 USDC（09）→ 06 柜台 → 美元进 05；TTG 从 07 领出
+02 投票机 → 03 十二小时门 → 外围运维 / Governance Burn
   （Phase1 OLD 48h SoloTimelock = LEGACY）
 ```
 

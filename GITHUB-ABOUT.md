@@ -1,6 +1,6 @@
 # GitHub repository About (owner setup)
 
-Set on the public official GitHub repo (URL = `https://github.com/traveltrustlabs/TravelTrust-TTG-Official` ; historical Wave1 `wejfiowej124234/TravelTrust-TTG-Official` is SUPERSEDED_AS_LIVING_PUSH_TARGET) → **About** → **Edit**:
+Set on https://github.com/wejfiowej124234/TravelTrust-TTG-Official → **About** → **Edit**:
 
 | Field | Value |
 |-------|-------|

@@ -36,9 +36,9 @@ Merchants and guides do not stake TTG by default. Their performance uses order-s
 
 Many tokens use lock-and-emit staking to dampen sell pressure: depositors earn a low APR, often paid by inflation. TravelTrust does not.
 
-Applying as a country’s Region Steward *is* the stake: TTG locks to the country threshold. Steward income comes from travel that already happened in that country — 45% of the platform fee to the steward’s registered wallet, 55% to the project pool. With no seated steward, 100% of the platform fee goes to the pool.
+Applying as a country’s Region Steward *is* the stake: TTG locks to the country threshold. Steward income comes from travel that already happened in that country — 45% of the platform fee to the steward’s registered wallet, 55% to the project pool (the split can be negotiated with the team and community, and reconfigured by governance proposal). With no seated steward, 100% of the platform fee goes to the pool.
 
-TTG cannot mint after genesis, so steward pay cannot be printed as new tokens. The seat threshold is live supply × country bps / 10000, and it falls when supply is burned. A 300,000 USDC access fee goes to treasury and is counted separately from the stake.
+TTG cannot mint after genesis, so steward pay cannot be printed as new tokens. The seat threshold is live supply × country bps / 10000, and it falls when supply is burned. A 300,000 USDC access fee goes to the operations wallet and is counted separately from the stake. It pays the founding team’s start-up costs: protocol development, security and infrastructure, early operations, and payroll. It is not a stake and does not count toward the seat threshold.
 
 That does two jobs at once: TTG is locked in a governance seat, and the staker shares real regional flow instead of a low APR unrelated to sales.
 
@@ -93,7 +93,7 @@ Batch writes and price changes go through a governance vote and the 12-hour dela
 | Rule | Meaning |
 |------|---------|
 | Platform fee rate | 500 bps (5%), governance-only change |
-| Seated steward | 45% to the steward registered wallet, 55% to the project pool |
+| Seated steward | 45% to the steward registered wallet, 55% to the project pool (negotiable with team and community; reconfigurable by governance proposal) |
 | No steward | 100% to the project pool |
 | Country key | Escrow orders carry an ISO country code |
 
@@ -109,7 +109,7 @@ Fees come only from verified escrow / settlement paths. There is no separate hol
 | Merchant | Not required | Bond rules independent and unconfirmed |
 | Guide | Not required | Per-order USDC performance bond |
 
-The Region Steward access fee is 300,000 USDC to `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736`.
+The Region Steward access fee is 300,000 USDC to `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736`. It funds the founding team’s start-up costs: protocol development, security and infrastructure, early operations, and payroll. It is separate from the TTG seat stake and is not refundable in the ordinary course.
 
 ---
 
@@ -165,7 +165,7 @@ Cutover is still incomplete: batches may be unseeded, fees may not yet point to 
 ## Key points
 
 - Trip deposits use USDC escrow. TTG is for governance and seats; the exchange window is not open.
-- Region Steward staking locks TTG; yield is that country’s real platform fee, not inflation rewards.
+- Region Steward staking locks TTG; yield is that country’s real platform fee (living 45/55, reconfigurable by governance proposal), not inflation rewards. The 300,000 USDC access fee is a start-up cost, not a stake.
 - Genesis split 50 / 35 / 3 / 5 / 7; 25 trillion supply; no mint.
 - Governance waits 12 hours. Stations 14 and 15 are person keys, not contracts.
 - This page is not a securities offering and does not issue a written production go-live.

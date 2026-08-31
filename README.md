@@ -1,18 +1,18 @@
 # TravelTrust · TTG V9 — Official Public Documentation
 
+**Repository:** https://github.com/traveltrustlabs/TravelTrust-TTG-Official  
 **Repository type:** documentation-only · **no smart contract source code**  
+**Nature:** **external public docs** (not the private engineering monorepo)  
 **Design Lock:** DL_R1 · Candidate `V9_AUDIT_CANDIDATE_DESIGN_LOCK`  
 **`TT_PRODUCTION_GO`:** NO_GO  
 
 ## Three truth planes (do not mix)
 
 ```text
-Private monorepo     → implementation & internal SSOT (not public)
-This GitHub repo     → filtered official docs for investors / reviewers
-Etherscan / chain    → verified bytecode & deployed contract facts
+Private monorepo (internal)  → implementation & internal SSOT
+This GitHub repo (external)  → filtered official docs
+Etherscan / chain            → verified bytecode & deployed facts
 ```
-
-Smart contract **source will be verified on Etherscan** for finalized Mainnet deployments — it is **not** published in this repository until that cutover is complete.
 
 ## TravelTrust in one paragraph
 
@@ -22,14 +22,24 @@ TravelTrust is a decentralized travel-commerce protocol: marketplace matching, o
 
 > **“Mainnet Edition” whitepaper** names the target protocol edition — **not** a claim that V9 is fully live on Mainnet today. See [GLOSSARY.md](GLOSSARY.md).
 
+## Web3 release notes
+
+Public exchange is **five short windows** (about 3.905% of 25T). Schedule pin `V9_SHORT_WINDOW_FIVE_ROUND` executed 2026-08-26. **Windows are not open.** Official primary-market / Vault Timelock delay is **12 hours** (Phase1 48h SoloTimelock is LEGACY). See [docs/RELEASE-NOTES.md](docs/RELEASE-NOTES.md).
+
 ## Documentation map
 
 | | |
 |--|--|
 | English hub | [docs/en/README.md](docs/en/README.md) |
 | 中文入口 | [docs/zh/README.md](docs/zh/README.md) |
-| Whitepaper (EN) | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md) |
-| 白皮书（中文） | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md) |
+| Release notes | [docs/RELEASE-NOTES.md](docs/RELEASE-NOTES.md) |
+| Whitepaper PDF (EN) | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf) |
+| 白皮书 PDF（中文） | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf) |
+| Whitepaper (EN markdown) | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md) |
+| 白皮书（中文 markdown） | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md) |
+| Primary Market | [docs/en/Primary-Market.md](docs/en/Primary-Market.md) |
+| Mainnet Phase1 | [docs/en/Mainnet-Deployments.md](docs/en/Mainnet-Deployments.md) |
+| Contract Registry | [docs/en/Contract-Registry.md](docs/en/Contract-Registry.md) |
 | Governance | [docs/governance/](docs/governance/) |
 | Tokenomics | [docs/tokenomics/](docs/tokenomics/) |
 | Sepolia (TESTNET) | [docs/deployments/sepolia.md](docs/deployments/sepolia.md) |
@@ -41,14 +51,15 @@ TravelTrust is a decentralized travel-commerce protocol: marketplace matching, o
 
 | Network | Status in this repo |
 |---------|---------------------|
-| **Sepolia** | [TESTNET / V9_TARGET](docs/deployments/sepolia.md) — rehearsal in progress |
-| **Mainnet** | **Wave 2** — `docs/deployments/mainnet.md` after V9 Mainnet Reality |
+| **Sepolia** | [TESTNET / V9_TARGET](docs/deployments/sepolia.md) |
+| **Mainnet** | Phase1 addresses disclosed as `DEPLOYED_PENDING_CUTOVER` · **≠** Fully Active · Etherscan verified-source pack = Wave 2 |
 
 ## Official links
 
 | | |
 |--|--|
 | Website | https://www.web3-ttg.com |
+| This repo | https://github.com/traveltrustlabs/TravelTrust-TTG-Official |
 | Contact | traveltrust.ir@gmail.com |
 | System mail (OTP only) | noreply@web3-ttg.com — not for human support |
 
@@ -58,4 +69,4 @@ Not investment advice. Smart contracts involve risk of loss. Historical V8 / Rem
 
 ---
 
-*Wave 1.1 public export · documentation only · does not replace on-chain truth.*
+*Wave 1.2 public export · documentation only · does not replace on-chain truth.*

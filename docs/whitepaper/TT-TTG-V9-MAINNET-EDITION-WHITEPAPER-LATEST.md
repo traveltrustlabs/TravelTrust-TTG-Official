@@ -75,7 +75,7 @@ TravelTrust 是去中心化旅行商业协议。游客用 USDC 把行程订金�
 
 ## 5 · 公开兑换（五批）
 
-兑换经一级市场与公开销售金库执行。窗口尚未对公众开放。上限、价格与 UTC 窗口与官网 listing 一致：
+兑换经一级市场与公开销售金库执行。窗口尚未对公众开放。上限、价格与 UTC 窗口与官网 listing 一致。五轮合计约占总量 **3.905%**（**9762.5 亿枚 TTG**）。未售出部分可能按已公布规则销毁一部分；销毁不是价格保护。
 
 | 批次 | 名称 | 上限（TTG） | USDC / 1 TTG | UTC 窗口 |
 |------|------|-------------|--------------|----------|
@@ -163,6 +163,25 @@ Token Update 32×32 SVG：`https://www.web3-ttg.com/brand/token/ttg-logo-32.svg`
 兑换尚未开放。旅行者 App 正在开发中，商店未上架。监管、税务与司法辖区准入另案。书面生产放行仍为 NO_GO。
 
 ---
+
+
+## 12 · 官方联系
+
+官方人工项目邮箱：`traveltrust.ir@gmail.com`。
+
+`noreply@web3-ttg.com` 只用于系统验证码和事务通知，不是人工审核或 Token Update 身份。
+
+Etherscan 是否要求官方域名邮箱属于外部审核规则。`ETHERSCAN_EMAIL_DOMAIN_MATCH` 为 **UNKNOWN**。把公开资料统一到 Gmail，并不等于拒信第 5 项已经 PASS。
+
+## 13 · 署名
+
+| 角色 | 姓名 | 公开核验 |
+|------|------|----------|
+| Founder / Maintainer | Sebastian Ward（塞巴斯蒂安·沃德） | 官网 `/team/founder` · X `@swardtm` · GitHub `wejfiowej124234` |
+| Maintainer | Helena Berger | 官网 `/team/clo` · GitHub `yinhang744-dev` |
+| Maintainer | Rasmus Saar | 官网 `/team/engineer_a` · GitHub `TT-Cc19873` |
+
+项目官方 GitHub：https://github.com/traveltrustlabs/TravelTrust-TTG-Official 。官方仓是项目公开记录，不等于 Founder 个人提交。本文不声称 Founder 在该仓有可归属 commits，也不声称公开 organization/collaborator 身份。项目邮箱 `traveltrust.ir@gmail.com`。没有 LinkedIn。本文不声称学历、公司履历或第三方背书。
 
 ## 要点
 

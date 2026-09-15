@@ -1,6 +1,6 @@
 # TTG V9
 
-**Facts:** TravelTrust Web3 发布说明 **V2** · Official www `f438ad803`  
+**Facts:** TravelTrust Web3 发布说明 **V2** · Official www Living Pin `e31df9c9c` · Fly `01M2JJ0TDN99`  
 **Mainnet:** contracts deployed · conversion not open · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
 - Genesis supply: **25,000,000,000,000 TTG (25T)**

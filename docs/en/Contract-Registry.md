@@ -1,6 +1,6 @@
 # Contract Registry (table 1-01 · fifteen machines)
 
-**Facts:** TravelTrust Web3 release notes **V2** (isolation HTML/MD) · displayed on Official www `https://www.web3-ttg.com` (Verified Baseline `f438ad803`)  
+**Facts:** TravelTrust Web3 release notes **V2** (isolation HTML/MD) · displayed on Official www `https://www.web3-ttg.com` (Living Pin `e31df9c9c` · Fly `01M2JJ0TDN99`)  
 **chain_id = 1** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
 Public listing on the website verifies **01 / 06 / 09**. This page is the full V2 living roster. Retired Phase1 / lost-key / V1 remint addresses belong in [Legacy Policy](Legacy-Policy.md) — **not** living roots.

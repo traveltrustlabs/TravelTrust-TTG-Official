@@ -28,6 +28,7 @@
 - [Mainnet Deployments](Mainnet-Deployments.md)
 - [Contract Registry](Contract-Registry.md)
 - [Verification](Verification.md)
+- [Founder](Founder.md)
 - [Legacy Policy](Legacy-Policy.md)
 - [Whitepaper](Whitepaper.md)
 

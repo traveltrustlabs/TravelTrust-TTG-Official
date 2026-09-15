@@ -1,7 +1,7 @@
 # TravelTrust Web3 · Public release notes
 
 **Public GitHub:** https://github.com/traveltrustlabs/TravelTrust-TTG-Official  
-**Facts:** TravelTrust Web3 发布说明 **V2** + Official www `https://www.web3-ttg.com` (Verified Baseline `f438ad803`)  
+**Facts:** TravelTrust Web3 发布说明 **V2** + Official www `https://www.web3-ttg.com` (Living Pin `e31df9c9c5…` · Fly `deployment-01M2JJ0TDN99SNBJ7SPHE0AF5C`)  
 **Not:** the private engineering monorepo · **Not:** `TT_PRODUCTION_GO` · **Not:** sale windows open
 
 This page matches the Official listing copy: 25T · five short windows · 01 / 06 / 09. Full roster: [zh/Contract-Registry.md](zh/Contract-Registry.md) · [en/Contract-Registry.md](en/Contract-Registry.md).

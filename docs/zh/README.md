@@ -28,6 +28,7 @@
 - [Mainnet 部署](Mainnet-Deployments.md)
 - [合约登记](Contract-Registry.md)
 - [Verification](Verification.md)
+- [Founder](Founder.md)
 - [Legacy 政策](Legacy-Policy.md)
 - [白皮书](Whitepaper.md)
 

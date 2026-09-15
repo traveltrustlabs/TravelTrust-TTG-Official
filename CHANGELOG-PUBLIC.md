@@ -1,24 +1,33 @@
 # Public changelog (documentation pack)
 
-## 2026-09-15 — Public Disclosure Alignment Candidate (local · not pushed)
+## 2026-09-15 — PUBLIC-DISCLOSURE-LISTING-READINESS (published on public main)
 
-- Facts: TravelTrust Web3 发布说明 **V2** + Official www Verified Baseline `f438ad803`
-- Living **01 / 06 / 09**, 02/03/05, 3%/5%/7% person keys, DAO 35%, 25T, five-round UTC calendar and prices, 32×32 TTG portrait SVG, Contract Registry table 1-01, whitepaper markdown + PDF twins
+- Parent freeze: `traveltrustlabs/TravelTrust-TTG-Official@918fef193a8e74833aaabf2bce093ae948c75d12`
+- Owner Gate accepted the local Candidate; this commit is the public-disclosure delta (not a Founder-authored commit)
+- Sync Official ③ `OFFICIAL_LISTING_READINESS_PASS` public facts only
+- Official www Living Pin `e31df9c9c5…` · Fly `deployment-01M2JJ0TDN99SNBJ7SPHE0AF5C` · `build_time=2026-09-15T12:51:09Z`
+- Human identity: **only** `traveltrust.ir@gmail.com` · `contact@web3-ttg.com` removed as official identity
+- Founder alternative verification pack · official-repo attributable commits remain **0** · no LinkedIn · no location
+- EN/ZH whitepaper markdown+PDF from Official-verified listing Candidate · logos 32/64/256 SHA match Official www
+- `TT_PRODUCTION_GO` **NO_GO** · `ETHERSCAN_RESUBMIT` **NO** · Token Logo/Verified **UNKNOWN** · #4 **PENDING_EXTERNAL_REVIEW** · #5 domain **UNKNOWN**
+
+## 2026-09-15 — Public Disclosure Alignment (pushed as `918fef193`)
+
+- Facts: TravelTrust Web3 发布说明 **V2** + then-living Official www (historical pin `f438ad803` — **SUPERSEDED** as living www)
+- Living **01 / 06 / 09**, 02/03/05, 3%/5%/7% person keys, DAO 35%, 25T, five-round UTC calendar
 - App: in development · stores not listed · convert stays on www
-- Whitepaper PDFs regenerated from current markdown · `TT_PRODUCTION_GO` remains **NO_GO**
-- **Waiting Owner review before commit/push**
+- `TT_PRODUCTION_GO` remains **NO_GO**
 
 ## 2026-08-31 — homepage whitepaper PDF (zh + en)
 
-- Published PDF twins of the Official www homepage whitepaper reader (same markdown as `frontend/public/docs/official-whitepaper/`)
+- Published PDF twins of the Official www homepage whitepaper reader
 - Markdown copies remain for GitHub browse; **PDF is the downloadable pack**
 - Private Mainnet Edition protocol SSOT in the engineering monorepo is **not** substituted for the homepage reader
 
 ## 2026-08-31 — wave 1.2 (align Official Web3 release notes)
 
 - Living public GitHub: `https://github.com/traveltrustlabs/TravelTrust-TTG-Official` (org `traveltrustlabs` · **external**). Internal engineering remains `TT-Cc19873/TravelTrust-V9`.
-- Added [docs/RELEASE-NOTES.md](docs/RELEASE-NOTES.md): 25T · five short windows · `V9_SHORT_WINDOW_FIVE_ROUND` pin executed · windows **not** open · Official PM/Vault delay **12h** (OLD 48h LEGACY)
-- Synced Primary Market, Governance, Contract Registry, whitepapers with github-official hub
+- Added [docs/RELEASE-NOTES.md](docs/RELEASE-NOTES.md): 25T · five short windows · windows **not** open
 - Historical: published Phase1 Mainnet short table (`DEPLOYED_PENDING_CUTOVER` was a **then-label**, now **SUPERSEDED** as living status; living = contracts deployed · conversion not open)
 - Historical Wave1 remote `wejfiowej124234/TravelTrust-TTG-Official` remains SUPERSEDED
 

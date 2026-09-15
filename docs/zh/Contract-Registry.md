@@ -1,6 +1,6 @@
 # 合约登记（表 1-01 · 十五台）
 
-**事实：** TravelTrust Web3 发布说明 **V2** · 官网展示 `https://www.web3-ttg.com`（Verified Baseline `f438ad803`）  
+**事实：** TravelTrust Web3 发布说明 **V2** · 官网展示 `https://www.web3-ttg.com`（Living Pin `e31df9c9c` · Fly `01M2JJ0TDN99`）  
 **chain_id = 1** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
 官网对外核验栏是 **01 / 06 / 09**。本页是 V2 活名册全文。退役 / 遗失钥 / V1 remint 地址只进 [Legacy 政策](Legacy-Policy.md)，**不得**当活根。

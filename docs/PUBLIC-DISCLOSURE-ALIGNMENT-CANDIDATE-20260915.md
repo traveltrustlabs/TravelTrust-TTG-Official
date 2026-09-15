@@ -1,9 +1,17 @@
-# Public Disclosure Alignment Candidate · 2026-09-15
+# SUPERSEDED — do not use as living public disclosure
 
-**Status:** LOCAL ONLY · **stop for Owner review** · do **not** commit or push until Owner says so.  
+**SUPERSEDED 2026-09-15** by [PUBLIC-DISCLOSURE-LISTING-READINESS-CANDIDATE-20260915.md](PUBLIC-DISCLOSURE-LISTING-READINESS-CANDIDATE-20260915.md) and [PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md](PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md).
+
+This file is a **historical** alignment pack. Official www pin `f438ad803` is **not** the living website. Living Official www is `e31df9c9c5…` · Fly `deployment-01M2JJ0TDN99SNBJ7SPHE0AF5C`. The public GitHub freeze parent is `918fef193`. Do **not** treat this document as current identity, contact, or pin.
+
+---
+
+# Public Disclosure Alignment Candidate · 2026-09-15 (historical)
+
+**Status:** SUPERSEDED · kept for provenance only · **not** the listing-readiness Candidate.  
 **`TT_PRODUCTION_GO`:** NO_GO  
 **Plane:** `traveltrustlabs/TravelTrust-TTG-Official` public docs only. Internal V9 engineering / Official www / API / Postgres / App / contracts **not** modified.  
-**Working copy:** `D:/TravelTrust-TTG-Official` (this tree has **no `.git`**). After Owner PASS, copy into the real public clone, then commit/push.
+**Working copy (historical note):** the 2026-09-15 alignment working copy had **no `.git`**. Living Candidate is now git worktree `D:/TravelTrust-TTG-Official-cand-listing-readiness-20260915` from `918fef193`.
 
 ## Facts used
 

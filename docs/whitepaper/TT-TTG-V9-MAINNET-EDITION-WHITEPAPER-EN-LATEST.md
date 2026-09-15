@@ -75,7 +75,7 @@ Initial ten-country bps: CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/
 
 ## 5 · Public exchange (five batches)
 
-Primary sales run through the batch market and public-sale vault. The window is not open to the public. Caps, prices, and UTC windows match Official www:
+Primary sales run through the batch market and public-sale vault. The window is not open to the public. Caps, prices, and UTC windows match Official www. Together the five windows are about **3.905%** of 25T (**976.25 billion TTG**). Unsold remainder may be burned in part; a burn is not price protection.
 
 | Batch | Name | Cap (TTG) | USDC / 1 TTG | UTC window |
 |-------|------|-----------|--------------|------------|
@@ -163,6 +163,25 @@ No mint after genesis. Holders cannot burn. Governance burn waits 12 hours. Plat
 Conversion is not open. The traveler App is in development and not listed on stores. Regulatory, tax, and jurisdictional access are separate. Production GO remains NO_GO.
 
 ---
+
+
+## 12 · Official contact
+
+Official human project email: `traveltrust.ir@gmail.com`.
+
+`noreply@web3-ttg.com` is system mail for verification codes and transactional notices only. It is not a human listing or Token Update identity.
+
+Whether Etherscan requires a mailbox on the official domain remains an external reviewer rule. `ETHERSCAN_EMAIL_DOMAIN_MATCH` is **UNKNOWN**. Publishing Gmail as the real official mailbox does not make Token Info item 5 PASS.
+
+## 13 · Attribution
+
+| Role | Name | Public checks |
+|------|------|---------------|
+| Founder / Maintainer | Sebastian Ward | Website `/team/founder` · X `@swardtm` · GitHub `wejfiowej124234` |
+| Maintainer | Helena Berger | Website `/team/clo` · GitHub `yinhang744-dev` |
+| Maintainer | Rasmus Saar | Website `/team/engineer_a` · GitHub `TT-Cc19873` |
+
+Official GitHub: https://github.com/traveltrustlabs/TravelTrust-TTG-Official. The official repository is a project record, not Founder-authored commits. This paper does not claim Founder commits there and does not claim public organization or collaborator membership. Project email: `traveltrust.ir@gmail.com`. There is no LinkedIn. This paper does not claim degrees, employer history, or third-party endorsements.
 
 ## Key points
 

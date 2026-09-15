@@ -34,4 +34,4 @@ Phase1 wallets `0xe1e732…` / `0x010365…` / `0xF34804…` are **LEGACY**.
 
 ## Primary market
 
-Five short windows (Genesis calibration / Community early bird / Builder / Public / Final public) · about **3.905%** of 25T · **not open**. Official delay **12h**. Full table: [Primary Market](Primary-Market.md) · [release notes](../RELEASE-NOTES.md).
+Five short windows (Genesis calibration / Community early bird / Builder / Public / Final public) · about **3.905%** of 25T · **not open**. Official delay **12h**. Full table: [Primary Market](../en/Primary-Market.md) · [release notes](../RELEASE-NOTES.md).

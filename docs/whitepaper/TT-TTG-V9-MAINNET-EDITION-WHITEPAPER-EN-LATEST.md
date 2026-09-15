@@ -8,12 +8,13 @@ TravelTrust is a decentralized travel-commerce protocol. Travelers lock trip dep
 
 ## 0 · What is true now
 
-Trip deposits can lock in escrow under the protocol. Exchanging TTG is separate, and the window is not open to the public. Governance changes wait 12 hours. There is no written production go-live.
+Trip deposits can lock in escrow under the protocol. Exchanging TTG is separate, and the window is not open to the public. The traveler App is in development and not listed on App Store or Google Play. There is no written production go-live.
 
 | Fact | Now |
 |------|-----|
 | Protocol deployed on Ethereum mainnet | Yes |
 | Public-sale window open to the public | No |
+| Traveler App listed on App Store / Google Play | No |
 | Written production go-live | No |
 
 ---
@@ -62,29 +63,29 @@ Initial ten-country bps: CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/
 
 | Bucket | Share | Amount | Destination |
 |--------|-------|--------|-------------|
-| Public sale vault | 50% | 12.5T | PublicSaleVault |
-| Governance treasury / 12-hour delay | 35% | 8.75T | 12-hour delay contract |
-| Team | 3% | 0.75T | `0x010365F0835323826569D61D0E13E6F8d25F6828` |
-| Marketing | 5% | 1.25T | `0xe1e732EfBf9B010a9204054467256d3d93f3CdD4` |
-| Treasury / ops | 7% | 1.75T | `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736` |
+| Public sale vault | 50% | 12.5T | #07 `0x1c9dBa15eBFB31Dd4BDa608b7b003B3ba4a61287` |
+| DAO treasury | 35% | 8.75T | DAO `0x063174C62A2878eB8E6c033363b8f1bA1aE9cE3b` (admin = #03) |
+| Team | 3% | 0.75T | `0xfBe514a0863e8F8278Fe8996F8F83CCa28734A81` |
+| Marketing | 5% | 1.25T | #15 `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` |
+| Treasury / ops | 7% | 1.75T | #14 `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` |
 
-`0xe1e732…CdD4` is also the deployer and 12-hour-delay admin. `0xF34804…2736` is also the pause key, access-fee recipient, and ops-spend recipient.
+#15 is the 12-hour-delay admin and the project-pool ops payee. #14 is the pause key and the 300,000 USDC access-fee payee. 35% does **not** sit in the 12-hour door itself.
 
 ---
 
 ## 5 · Public exchange (five batches)
 
-Primary sales run through the batch market and public-sale vault. The window is not open to the public. Caps are absolute:
+Primary sales run through the batch market and public-sale vault. The window is not open to the public. Caps, prices, and UTC windows match Official www:
 
-| Batch | Cap (TTG) | USDC per 1 TTG (6-decimal raw) |
-|-------|-----------|--------------------------------|
-| 1 | 1.25B | 1 |
-| 2 | 3.75B | 3 |
-| 3 | 18.75B | 5 |
-| 4 | 168.75B | 7 |
-| 5 | 2,025B | 9 |
+| Batch | Name | Cap (TTG) | USDC / 1 TTG | UTC window |
+|-------|------|-----------|--------------|------------|
+| 1 | Genesis calibration | 1,250,000,000 | 0.00000100 | 2026-11-12 09:00 → 2026-11-19 09:00 |
+| 2 | Community early bird | 6,250,000,000 | 0.00000300 | 2026-12-03 09:00 → 2026-12-17 09:00 |
+| 3 | Builder round | 31,250,000,000 | 0.00000500 | 2027-01-14 09:00 → 2027-02-04 09:00 |
+| 4 | Public round | 312,500,000,000 | 0.00000700 | 2027-02-25 09:00 → 2027-03-27 09:00 |
+| 5 | Final public round | 625,000,000,000 | 0.00000900 | 2027-04-08 09:00 → 2027-05-23 09:00 |
 
-Batch writes and price changes go through a governance vote and the 12-hour delay. Treasury cannot change prices from an ordinary wallet. Sale USDC goes to the project pool.
+Batch writes and price changes go through a governance vote and the 12-hour delay. Sale USDC goes to the project pool. A published plan is not a live buy.
 
 ---
 
@@ -109,22 +110,22 @@ Fees come only from verified escrow / settlement paths. There is no separate hol
 | Merchant | Not required | Bond rules independent and unconfirmed |
 | Guide | Not required | Per-order USDC performance bond |
 
-The Region Steward access fee is 300,000 USDC to `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736`. It funds the founding team’s start-up costs: protocol development, security and infrastructure, early operations, and payroll. It is separate from the TTG seat stake and is not refundable in the ordinary course.
+The Region Steward access fee is 300,000 USDC to `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E`. It funds the founding team’s start-up costs: protocol development, security and infrastructure, early operations, and payroll. It is separate from the TTG seat stake and is not refundable in the ordinary course.
 
 ---
 
 ## 8 · Project pool
 
-The project pool collects sale USDC and platform-fee shares routed to the pool. Ops spend: propose → 12-hour delay → `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736`. Cumulative spend in any 90-day window is at most 30%.
+The project pool collects sale USDC and platform-fee shares routed to the pool. Ops spend: propose → 12-hour delay → `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1`. Cumulative spend in any 90-day window is at most 30%.
 
 ---
 
 ## 9 · Governance delay
 
 ```text
-Governor  →  12-hour delay (0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A)
-             Scheduler is an operations wallet 0xe1e732EfBf9B010a9204054467256d3d93f3CdD4
-             (not a contract, not treasury)
+Governor  →  12-hour delay (0x2Cb9f0FD770B50931f0a4cd463113bBA39331acb)
+             Scheduler is #15 0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1
+             (person key, not treasury)
               ├─ Market / Vault / Fee / Stake / Pool
               └─ Governance burn authorization
 ```
@@ -135,22 +136,23 @@ No multi-sig administers the 12-hour delay. Send funds only to addresses listed 
 
 ## 10 · Checkable addresses
 
+Official www lists 01 / 06 / 09. Full V2 roster: [Contract Registry](../en/Contract-Registry.md).
+
 | # | Name | Address | Note |
 |---|------|---------|------|
-| 01 | TTG | `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` | Deployed; cutover incomplete |
-| 02 | Governor | `0xD4b6162CB344af2C44689717edDFEe21e9082205` | Deployed |
-| 03 | 12-hour delay | `0xF61880fe9943BBc624F487782E2fB35d8Ae50E3A` | Official delay |
-| 04 | Fee router | `0x2F3F4120d9d10b52f7FF762aC7E8f563454A9704` | Rules deployed; not yet called |
-| 05 | Project pool | `0x65714bbF2f3B8bB7E4c71F5D51C0bbe6869dAB68` | Sale proceeds point here |
-| 06 | Primary market | `0xc714E2567982ea92d5f3C5b66ab65532Cfc5f09b` | Batches not open to the public |
-| 07 | Vault | `0xe87378e49Ead2E1a422B8cae118d3C905Ee45B6C` | Gated by the 12-hour delay |
-| 08 | Live trip fee contract | `0xa20a2987c688b8CAB21E1f54B6Ad103926B4082b` | Current platform-fee sink |
-| 10 | Role stake | `0xa9839Ef49e1Cc6095b41764DCf81346250A469F8` | Implementation upgrade queued |
-| 13 | Completion adapter | `0x94e2be00877c4519805408e10e16e33625863c74` | Upgrade queued |
-| 14 | Pause key (person wallet) | `0xF34804AA66bAeE02F3aF1C540B9997C7F46b2736` | Operations wallet |
-| 15 | Scheduler key (person wallet) | `0xe1e732EfBf9B010a9204054467256d3d93f3CdD4` | Operations wallet |
+| 01 | TTG | `0xd9965802ff0A9DAB5d0E13392dA797cd6D13ee51` | Living token · 25T |
+| 02 | Governor | `0x69fF62475C3ed36B3B8627BfEC980b3047B3bf42` | Living |
+| 03 | 12h Timelock | `0x2Cb9f0FD770B50931f0a4cd463113bBA39331acb` | Living door |
+| 05 | Project pool | `0xD49F33c1f1d806500407550f8e92b0d1b3d725d9` | Sale USDC sink |
+| 06 | Primary market | `0xaB1D74A62e3fBB1c140a9Dfa9bB5b7Fe3F8C7e46` | Seeded · not open |
+| 07 | Vault | `0x1c9dBa15eBFB31Dd4BDa608b7b003B3ba4a61287` | Genesis 12.5T |
+| DAO | 35% treasury | `0x063174C62A2878eB8E6c033363b8f1bA1aE9cE3b` | 8.75T · admin = #03 |
+| 09 | Circle USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | KEEP |
+| 3% | Team | `0xfBe514a0863e8F8278Fe8996F8F83CCa28734A81` | Genesis 0.75T |
+| 5% / 15 | Marketing / scheduler | `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` | Genesis 1.25T |
+| 7% / 14 | Treasury / pause | `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` | Genesis 1.75T |
 
-Trip money path: escrow factory `0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6` · settlement router `0xe5C3ED16741Eb195fAE11b0C1449A79DD675B372` · USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`.
+Token Update 32×32 SVG: `https://www.web3-ttg.com/brand/token/ttg-logo-32.svg`. Do not send funds to lost-key 01 `0xD5c1Ef9e…` or Phase1 06 `0xc714E256…`.
 
 ---
 
@@ -158,7 +160,7 @@ Trip money path: escrow factory `0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6` · 
 
 No mint after genesis. Holders cannot burn. Governance burn waits 12 hours. Platform fee starts at 5%. Pool ops spend is capped at 30% in any 90-day window. This document states living rules and checkable addresses. It does not rewrite the website or observer layer, and it does not issue go-live.
 
-Cutover is still incomplete: batches may be unseeded, fees may not yet point to the new router, and the seat implementation is queued. Regulatory, tax, and jurisdictional access are separate. Production GO remains NO_GO.
+Conversion is not open. The traveler App is in development and not listed on stores. Regulatory, tax, and jurisdictional access are separate. Production GO remains NO_GO.
 
 ---
 

@@ -3,28 +3,26 @@
 **Repository:** https://github.com/traveltrustlabs/TravelTrust-TTG-Official  
 **Repository type:** documentation-only · **no smart contract source code**  
 **Nature:** **external public docs** (not the private engineering monorepo)  
-**Design Lock:** DL_R1 · Candidate `V9_AUDIT_CANDIDATE_DESIGN_LOCK`  
 **`TT_PRODUCTION_GO`:** NO_GO  
 
 ## Three truth planes (do not mix)
 
 ```text
-Private monorepo (internal)  → implementation & internal SSOT
-This GitHub repo (external)  → filtered official docs
-Etherscan / chain            → verified bytecode & deployed facts
+TravelTrust Web3 发布说明 V2  →  contract / token facts
+Official www (f438ad803)      →  displays those facts
+This GitHub repo (external)   →  filtered public copy of the same facts
+Traveler App                  →  only capabilities that already exist (not store-listed)
 ```
 
 ## TravelTrust in one paragraph
 
-TravelTrust is a decentralized travel-commerce protocol: marketplace matching, on-chain Escrow for user principal (USDC), and V9 governance / fee / sale / stake modules under Design Lock **DL_R1**.
+TravelTrust is a travel-commerce protocol: marketplace matching, on-chain Escrow for traveler principal (USDC), and TTG governance. **TTG** is the governance token (25T genesis · **NO-MINT** after). It is **not** trip collateral. Deposits use Circle USDC.
 
-**TTG** is the governance token (25T genesis · **NO-MINT** after). It is **not** the default settlement asset for travel orders.
-
-> **“Mainnet Edition” whitepaper** names the target protocol edition — **not** a claim that V9 is fully live on Mainnet today. See [GLOSSARY.md](GLOSSARY.md).
+Living **01** `0xd9965802ff0A9DAB5d0E13392dA797cd6D13ee51` · **06** `0xaB1D74A62e3fBB1c140a9Dfa9bB5b7Fe3F8C7e46` · **09** `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`.
 
 ## Web3 release notes
 
-Public exchange is **five short windows** (about 3.905% of 25T). Schedule pin `V9_SHORT_WINDOW_FIVE_ROUND` executed 2026-08-26. **Windows are not open.** Official primary-market / Vault Timelock delay is **12 hours** (Phase1 48h SoloTimelock is LEGACY). See [docs/RELEASE-NOTES.md](docs/RELEASE-NOTES.md).
+Public exchange is **five short windows** (about 3.905% of 25T). Round 1 starts **2026-11-12 09:00 UTC**. **Windows are not open.** See [docs/RELEASE-NOTES.md](docs/RELEASE-NOTES.md).
 
 ## Documentation map
 
@@ -33,40 +31,44 @@ Public exchange is **five short windows** (about 3.905% of 25T). Schedule pin `V
 | English hub | [docs/en/README.md](docs/en/README.md) |
 | 中文入口 | [docs/zh/README.md](docs/zh/README.md) |
 | Release notes | [docs/RELEASE-NOTES.md](docs/RELEASE-NOTES.md) |
-| Whitepaper PDF (EN) | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf) |
-| 白皮书 PDF（中文） | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf) |
 | Whitepaper (EN markdown) | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md) |
 | 白皮书（中文 markdown） | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md) |
+| Whitepaper PDF (EN) | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf) |
+| 白皮书 PDF（中文） | [docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf](docs/whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf) |
 | Primary Market | [docs/en/Primary-Market.md](docs/en/Primary-Market.md) |
-| Mainnet Phase1 | [docs/en/Mainnet-Deployments.md](docs/en/Mainnet-Deployments.md) |
+| Mainnet | [docs/en/Mainnet-Deployments.md](docs/en/Mainnet-Deployments.md) |
 | Contract Registry | [docs/en/Contract-Registry.md](docs/en/Contract-Registry.md) |
-| Governance | [docs/governance/](docs/governance/) |
-| Tokenomics | [docs/tokenomics/](docs/tokenomics/) |
-| Sepolia (TESTNET) | [docs/deployments/sepolia.md](docs/deployments/sepolia.md) |
+| Token Update 32×32 SVG | [assets/logo/ttg-logo-32.svg](assets/logo/ttg-logo-32.svg) |
 | Contact | [CONTACT.md](CONTACT.md) |
 | Security | [SECURITY.md](SECURITY.md) |
 | Glossary | [GLOSSARY.md](GLOSSARY.md) |
 
+**PDF twins regenerated 2026-09-15 from the markdown above** (same V2 addresses, 3%/5%/7% person keys, DAO 35%, five-round UTC calendar). Markdown + PDF + Official www are the living public facts for those items.
+
 ## Deployment status (public)
 
-| Network | Status in this repo |
-|---------|---------------------|
-| **Sepolia** | [TESTNET / V9_TARGET](docs/deployments/sepolia.md) |
-| **Mainnet** | Phase1 addresses disclosed as `DEPLOYED_PENDING_CUTOVER` · **≠** Fully Active · Etherscan verified-source pack = Wave 2 |
+| Surface | Status now |
+|---------|------------|
+| **Ethereum mainnet** | Contracts deployed (V2 01/06 live). Conversion **not open**. **≠** Production GO |
+| **Official website** | https://www.web3-ttg.com |
+| **Traveler App** | In development. App Store / Google Play **not listed**. No install package. TTG convert is on the website, not in the App. |
+| **Sepolia** | [TESTNET notes](docs/deployments/sepolia.md) — not Official live |
 
 ## Official links
 
 | | |
 |--|--|
 | Website | https://www.web3-ttg.com |
+| Brand / Token Update SVG | https://www.web3-ttg.com/brand/token/ttg-logo-32.svg |
 | This repo | https://github.com/traveltrustlabs/TravelTrust-TTG-Official |
-| Contact | traveltrust.ir@gmail.com |
+| Human contact | traveltrust.ir@gmail.com |
+| Project identity email | contact@web3-ttg.com (Token Update; inbound mail still being confirmed) |
 | System mail (OTP only) | noreply@web3-ttg.com — not for human support |
 
 ## Disclaimer
 
-Not investment advice. Smart contracts involve risk of loss. Historical V8 / Remint / R2_FINAL paths are **LEGACY** — see [docs/en/Legacy-Policy.md](docs/en/Legacy-Policy.md).
+Not investment advice. Smart contracts involve risk of loss. Historical V8 / Remint / lost-key 01 paths are **LEGACY** — see [docs/en/Legacy-Policy.md](docs/en/Legacy-Policy.md).
 
 ---
 
-*Wave 1.2 public export · documentation only · does not replace on-chain truth.*
+*Public documentation only. Does not replace on-chain truth. Does not issue Production GO.*

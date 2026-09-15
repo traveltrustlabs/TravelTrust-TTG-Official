@@ -1,13 +1,13 @@
 # Contributing (public Web3 surface)
 
-**Upstream truth:** Documentation Truth Baseline + Design Lock DL_R1.  
-**Do not** propose ACTIVE narratives that revive `globalStakers`, R2_FINAL, Remint, Safe-as-V9-admin, or Legacy P4Cap sale sinks.
+**Facts:** TravelTrust Web3 发布说明 **V2** + Official www.  
+**Do not** propose ACTIVE narratives that revive lost-key 01, Phase1 06 as living, `globalStakers`, R2_FINAL, Remint, Safe-as-V9-admin, or Legacy P4Cap sale sinks.
 
 ## Allowed
 
-- Doc clarifications that preserve Mainnet status `DEPLOYED_PENDING_CUTOVER` / `TIMELOCK_CUTOVER_PENDING`
+- Doc clarifications that preserve: contracts deployed · conversion not open · App not store-listed · `TT_PRODUCTION_GO` = NO_GO
 - Bug reports via [SECURITY.md](SECURITY.md)
-- PRs that sync public docs to Baseline after Owner-approved Reality changes
+- PRs that sync public docs to V2 + Official www after Owner-approved Reality changes
 
 ## Forbidden without Owner written gate
 

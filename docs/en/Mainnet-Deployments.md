@@ -1,10 +1,10 @@
 # Mainnet deployments
 
-**Upstream:** table 1-01 · fifteen machines (TravelTrust Web3 release notes)  
-**chain_id = 1** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Facts:** TravelTrust Web3 发布说明 **V2** table 1-01  
+**chain_id = 1** · contracts deployed · conversion not open · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-Living roster and addresses: [Contract Registry](Contract-Registry.md) **table 1-01**. This page does not repeat the Phase1 short table.
+Living roster: [Contract Registry](Contract-Registry.md). Official www primary proof is **01 / 06 / 09**.
 
-Still open (not a missing sixteenth machine): RoleStake `upgradeTo` (SeatLock) · next fee-router pointer · completion adapter caller · Official www guide button · Production GO.
+Traveler App is **in development** and **not listed** on App Store / Google Play.
 
-> Phase1 old pool / fee router / Governor / stake addresses live only in [Legacy Policy](Legacy-Policy.md).
+> Retired Phase1 / lost-key addresses live only in [Legacy Policy](Legacy-Policy.md).

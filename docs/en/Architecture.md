@@ -1,42 +1,41 @@
 # Architecture
 
 **Upstream:** Documentation Truth Baseline · `V9_DOCUMENTATION_FULL_CONVERGENCE_PASS` · `TTG_V9_MAINNET_EDITION_WHITEPAPER_PASS` · Design Lock **DL_R1**  
-**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet:** contracts deployed · conversion not open · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-The living Web3 roster is **only table 1-01 · fifteen machines** (jobs locked with the Canvas / HTML dashboard). **KEEP** means #11 factory and #12 SettlementRouter **keep this doorplate** — they are still in table 1-01, not LEGACY.
+The living Web3 roster is **only table 1-01** from TravelTrust Web3 发布说明 **V2**. Addresses: [Contract Registry](Contract-Registry.md).
 
 | Class | Meaning |
 |-------|---------|
-| **Table 1-01** | Fifteen living machines (jobs below) |
-| **KEEP** | #11 / #12 doorplate unchanged (trip principal) |
-| **LEGACY** | Safe / old 48h Timelock / P4Cap / Phase1 old pool·router·Governor·stake / V8 / Remint — **not** table 1-01 |
+| **Table 1-01** | Fifteen living machines |
+| **08** | **Not deployed** this edition |
+| **LEGACY** | Lost-key / Phase1 / V8 / Remint — [Legacy Policy](Legacy-Policy.md) |
 
 | # | Name | Does |
 |---|------|------|
 | 01 | Governance token | Vote, sale, steward metering; no mint |
 | 02 | Governor | ~7-day holder vote, then 12h door |
-| 03 | 12h Timelock | Last 12h wait; anyone may execute when due |
-| 04 | FeeRouterV2 | Splits extracted platform fee (default 5%) |
-| 05 | ProjectPoolV2 | Sale USDC and no-seat fees land here |
-| 06 | PrimaryMarket | Five short windows; this five locked |
-| 07 | Vault | Genesis 50% TTG; unsold returns; burn via 12h |
-| 08 | Next fee router | Next splitter; asks seat; stop-on-exit (pointer not cut) |
+| 03 | 12h Timelock | Last 12h wait; the door is not a treasury |
+| 04 | Fee router | Splits extracted platform fee (default 5%) |
+| 05 | Project pool | Sale USDC and no-seat fees land here |
+| 06 | Primary market | Five short windows; this five locked |
+| 07 | Vault | Genesis 50% TTG (12.5T) |
+| 08 | (reserved) | **Not deployed** |
 | 09 | USDC | Circle USD; sale, deposits, access fee |
-| 10 | RoleStake | Steward TTG seat; 300k to #14, TTG in this machine |
-| 11 | Escrow factory | Mints escrow on Official checkout |
-| 12 | SettlementRouter | Pays principal, takes 5% to fee router |
-| 13 | Completion adapter | Calls fee router with country; does not change KEEP |
-| 14 | Pause | Pause sale; default wage and 300k payee |
-| 15 | Scheduler | 12h admin; not treasury |
+| 10 | RoleStake | Steward TTG seat; 300k to #14 |
+| 11 | Escrow factory | Mints escrow on checkout |
+| 12 | Settlement router | Pays principal; fee to #13 → #04 |
+| 13 | Completion adapter | Calls fee router with country |
+| 14 | Pause | Pause sale; 7% key; 300k access-fee payee |
+| 15 | Scheduler | 12h admin; 5% key; pool ops payee |
 
 ```text
-Order(+ISO country) → #11 factory / #12 SettlementRouter
-  → fee 5% → #04 FeeRouterV2
-       ├─ Active steward → 45% payout wallet / 55% #05 ProjectPoolV2
+Order(+ISO country) → #11 factory → #12 settlement → #13 adapter → #04 fee router
+  → 5% fee
+       ├─ Active steward → 45% payout wallet / 55% #05
        └─ none → 100% #05
 Sale USDC (#09) → #06 counter → dollars to #05; TTG from #07
 #02 Governor → #03 12h door → periphery ops / Governance Burn
-  (Phase1 OLD 48h SoloTimelock = LEGACY)
 ```
 
 Token monetary rules are **immutable NO-MINT**. Periphery may upgrade via governance **without** minting beyond genesis.

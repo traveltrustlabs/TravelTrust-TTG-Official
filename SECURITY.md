@@ -9,6 +9,6 @@ If you believe you have found a security vulnerability in TravelTrust Web3 contr
 
 ## Scope notes
 
-- Mainnet Phase1 is `DEPLOYED_PENDING_CUTOVER` — treat funds and integrations with extreme care.
+- Mainnet contracts are deployed; conversion is **not open**; `TT_PRODUCTION_GO` is **NO_GO**. Treat funds and integrations with extreme care.
 - Legacy contracts (Safe / old P4Cap / Remint / V8) are **out of Official V9 ACTIVE** scope unless explicitly listed KEEP for Money Path.
 - This file does **not** constitute a bug bounty program until separately announced.

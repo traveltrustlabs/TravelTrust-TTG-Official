@@ -1,9 +1,9 @@
 # TravelTrust Web3 · 官方文档（中文）
 
-**公开文档入口** · Design Lock **DL_R1**  
-**Mainnet 状态：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** `MAINNET_FULLY_ACTIVE` · **≠** `TT_PRODUCTION_GO`
+**公开文档入口**  
+**Mainnet 状态：** 合约已部署 · 兑换 **尚未开放** · 旅行者 App **正在开发中**（商店未上架）· **≠** `TT_PRODUCTION_GO`
 
-> **「Mainnet Edition」白皮书** 指目标协议版本名称 — **不等于** V9 已在主网全量 LIVE。Phase1 已部署事实见白皮书 §0 与 [Mainnet 部署](Mainnet-Deployments.md)。Etherscan **已验证源码全包** 仍属 Wave 2。
+> 合约/Token 事实以 TravelTrust Web3 发布说明 **V2** 为准。官网展示 01 / 06 / 09。本仓对外同步这些事实。Etherscan **已验证源码全包** 仍属 Wave 2。
 
 ## 部署披露（本仓库）
 

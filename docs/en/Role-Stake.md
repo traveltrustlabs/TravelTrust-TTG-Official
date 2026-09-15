@@ -1,7 +1,7 @@
 # Role Stake
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS (Stake Layer Split · Guide Per-Order Bond)  
-**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet:** contracts deployed · conversion not open · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
 | Role | Status | Threshold / performance |
 |------|--------|-------------------------|
@@ -12,4 +12,4 @@
 **Forbidden:** treating 81 long-lived Identity stake as the order performance bond. Implementation audit: **`NEW_ORDER_BOND_MODULE_REQUIRED`**.
 
 Initial Steward bps: CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/AE 150.  
-Living address (table 1-01 · **10 RoleStake**): does = **steward TTG seat; 300k to #14, TTG locked in this machine**. `0xa9839Ef49e1Cc6095b41764DCf81346250A469F8`. Impl is still old; 12h `upgradeTo` (SeatLock) before claiming apply/exit is live on mainnet. Phase1 `0xf6A1Fb…` = **LEGACY**.
+Living address (table 1-01 · **10 RoleStake**): steward TTG seat; 300k USDC access fee to **#14**; TTG locked in this machine. `0x131fa67a38563c99Aa65B4470d568d8aC738D77b`. Phase1 `0xa9839Ef4…` and earlier `0xf6A1Fb…` = **LEGACY**.

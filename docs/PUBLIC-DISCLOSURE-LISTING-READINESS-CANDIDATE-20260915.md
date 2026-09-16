@@ -1,5 +1,7 @@
 # Public Disclosure Listing-Readiness Candidate · 2026-09-15
 
+> **SUPERSEDED as living Official image / public human mailbox (2026-09-16).** Living Official www is Fly `deployment-01M2JY6EHNB673R46MTZT9HSSH` · bake `2026-09-15T16:24:54Z` · public mailbox `contact@web3-ttg.com`. See [PUBLIC-DISCLOSURE-CONTACT-DOMAIN-ALIGNMENT-CANDIDATE-20260916.md](PUBLIC-DISCLOSURE-CONTACT-DOMAIN-ALIGNMENT-CANDIDATE-20260916.md). This file remains the 2026-09-15 listing-readiness public pack.
+
 **STATUS:** Owner Gate accepted · this commit is the public-disclosure delta from parent `918fef193`  
 **Plane:** `traveltrustlabs/TravelTrust-TTG-Official` documentation-only public repo  
 **Parent freeze:** `918fef193a8e74833aaabf2bce093ae948c75d12`  
@@ -21,8 +23,8 @@ This Candidate syncs **③ Official-verified public facts** onto the public disc
 | Fact | Public disclosure location |
 |------|----------------------------|
 | Founder alternative verification identity chain + whitepaper attribution | [en/Founder.md](en/Founder.md) · [zh/Founder.md](zh/Founder.md) · whitepaper §13 |
-| Only human mailbox `traveltrust.ir@gmail.com` | [CONTACT.md](../CONTACT.md) · README · SECURITY |
-| Official www Living Pin `e31df9c9c5a08bca7feab70e74217656d3c55b63` · Fly `deployment-01M2JJ0TDN99SNBJ7SPHE0AF5C` · `build_time=2026-09-15T12:51:09Z` | README · RELEASE-NOTES · Verification · Contract-Registry |
+| Only human mailbox `contact@web3-ttg.com` | [CONTACT.md](../CONTACT.md) · README · SECURITY |
+| Official www Living Pin `e31df9c9c5…` · Fly `deployment-01M2JJ0TDN99SNBJ7SPHE0AF5C` · `build_time=2026-09-15T12:51:09Z` (**historical 2026-09-15 pack**; living image is `01M2JY6EHNB`) | README · RELEASE-NOTES · Verification · Contract-Registry |
 | EN/ZH whitepaper markdown + PDF | `docs/whitepaper/*-LATEST.md` / `.pdf` (sha256 MATCH Official hop copies) |
 | Token logos 32 / 64 / 256 | `assets/logo/ttg-logo-32.svg` · `ttg-logo-64.svg` · `ttg-wordmark-blue-256.png` (sha256 MATCH Official www) |
 | ASCII URL / hash口径 | Official www fragment ids remain ASCII; this pack does not add CJK hash fragments |
@@ -35,7 +37,7 @@ This Candidate syncs **③ Official-verified public facts** onto the public disc
 
 | Stale item | Treatment |
 |------------|-----------|
-| `contact@web3-ttg.com` as official human identity | Removed from living tables; remaining mentions are **explicitly not official** |
+| Gmail as official human identity | Removed from living public tables; remaining mentions are historical CHANGELOG only |
 | Fake / unpublished LinkedIn | **Absent.** Founder pages state no LinkedIn and no “coming soon” |
 | Unprovable location / nationality / degrees / employer / contributions | **Absent.** Founder pages forbid those claims |
 | Old Website Pin `f438ad803` as living www | CHANGELOG historical SUPERSEDED only |
@@ -77,6 +79,6 @@ Public HTTPS (Official www, not this GitHub raw):
 - **No API / Postgres / App / contracts edits.**
 - **`ETHERSCAN_RESUBMIT` stays NO** until a later independent Etherscan Final Preflight.
 - **#4 stays PENDING_EXTERNAL_REVIEW.** This pack is alternative verification disclosure, not Etherscan Team Transparency PASS.
-- **#5 domain rule and Token Logo/Verified stay UNKNOWN.** Gmail is the real mailbox; it does not match `@web3-ttg.com`.
+- **#5 domain rule and Token Logo/Verified stay UNKNOWN.** Publishing `contact@web3-ttg.com` is **not** Etherscan item 5 PASS.
 
 Reality evidence: [PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md](PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md).

@@ -9,7 +9,7 @@
 - Token Update 32×32 SVG: `https://www.web3-ttg.com/brand/token/ttg-logo-32.svg`
 - Token Update 64×64 SVG: `https://www.web3-ttg.com/brand/token/ttg-logo-64.svg`
 - Token Update 256 PNG: `https://www.web3-ttg.com/brand/token/ttg-wordmark-blue-256.png`
-- Official www Living Pin: `e31df9c9c5a08bca7feab70e74217656d3c55b63` · Fly `deployment-01M2JJ0TDN99SNBJ7SPHE0AF5C`
-- Human email: `traveltrust.ir@gmail.com` · Founder alternative verification: [Founder.md](Founder.md)
+- Official www Living Pin: `e31df9c9c5a08bca7feab70e74217656d3c55b63` · Fly `deployment-01M2JY6EHNB673R46MTZT9HSSH` · bake `2026-09-15T16:24:54Z` · release 586
+- Human email: `contact@web3-ttg.com` · Founder alternative verification: [Founder.md](Founder.md)
 - Full roster: [Contract Registry](Contract-Registry.md)
 - Public docs in this repository must match V2 + Official www for 01/06/09, 25T, and the five-round calendar. They must **not** claim store listing, Production GO, Etherscan Token Logo/Verified PASS, or Founder-authored commits on this repo.

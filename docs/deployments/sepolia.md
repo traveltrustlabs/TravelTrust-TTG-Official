@@ -36,7 +36,7 @@
 | Surface | URL / contact |
 |---------|----------------|
 | Website | https://www.web3-ttg.com |
-| Contact | traveltrust.ir@gmail.com |
+| Contact | contact@web3-ttg.com |
 | This repo | Documentation only — no Solidity source |
 
 ---

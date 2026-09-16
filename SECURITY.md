@@ -4,7 +4,7 @@ If you believe you have found a security vulnerability in TravelTrust Web3 contr
 
 1. **Do not** open a public GitHub issue with exploit details.
 2. Prefer GitHub Security Advisories when enabled on this repository.
-3. **Official contact (human):** `traveltrust.ir@gmail.com` — see [CONTACT.md](CONTACT.md). (**Do not** use `noreply@web3-ttg.com`; that address is system-only for automated mail.)
+3. **Official contact (human):** `contact@web3-ttg.com` — see [CONTACT.md](CONTACT.md). (**Do not** use `noreply@web3-ttg.com`; that address is system-only for automated mail.)
 4. Include: affected address/module, chain_id, impact summary, and minimal reproduction **without** mainnet fund-risk instructions.
 
 ## Scope notes

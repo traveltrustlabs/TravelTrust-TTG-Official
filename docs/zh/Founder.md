@@ -12,7 +12,7 @@
 | X | https://x.com/swardtm |
 | 个人 GitHub | https://github.com/wejfiowej124234 |
 | 白皮书署名 | 中英文 Mainnet Edition 白皮书 §13 Founder / Maintainer |
-| 项目邮箱 | `traveltrust.ir@gmail.com` |
+| 项目邮箱 | `contact@web3-ttg.com` |
 | 官方公开文档仓 | https://github.com/traveltrustlabs/TravelTrust-TTG-Official（项目记录） |
 
 ## 本文不声称

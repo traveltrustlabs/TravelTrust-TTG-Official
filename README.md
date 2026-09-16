@@ -9,7 +9,7 @@
 
 ```text
 TravelTrust Web3 发布说明 V2  →  contract / token facts
-Official www (e31df9c9c / Fly 01M2JJ0TDN99)  →  displays those facts
+Official www (e31df9c9c / Fly 01M2JY6EHNB · bake 2026-09-15T16:24:54Z)  →  displays those facts
 This GitHub repo (external)   →  filtered public copy of the same facts
 Traveler App                  →  only capabilities that already exist (not store-listed)
 ```
@@ -44,6 +44,8 @@ Public exchange is **five short windows** (about 3.905% of 25T). Round 1 starts 
 | Founder (alternative verification) | [docs/en/Founder.md](docs/en/Founder.md) |
 | Public Disclosure listing-readiness Candidate | [docs/PUBLIC-DISCLOSURE-LISTING-READINESS-CANDIDATE-20260915.md](docs/PUBLIC-DISCLOSURE-LISTING-READINESS-CANDIDATE-20260915.md) |
 | Public Disclosure listing-readiness Reality | [docs/PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md](docs/PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md) |
+| Public Disclosure contact-domain Candidate | [docs/PUBLIC-DISCLOSURE-CONTACT-DOMAIN-ALIGNMENT-CANDIDATE-20260916.md](docs/PUBLIC-DISCLOSURE-CONTACT-DOMAIN-ALIGNMENT-CANDIDATE-20260916.md) |
+| Public Disclosure contact-domain Reality | [docs/PUBLIC-DISCLOSURE-CONTACT-DOMAIN-ALIGNMENT-REALITY-20260916.md](docs/PUBLIC-DISCLOSURE-CONTACT-DOMAIN-ALIGNMENT-REALITY-20260916.md) |
 | Contact | [CONTACT.md](CONTACT.md) |
 | Security | [SECURITY.md](SECURITY.md) |
 | Glossary | [GLOSSARY.md](GLOSSARY.md) |
@@ -66,7 +68,7 @@ Public exchange is **five short windows** (about 3.905% of 25T). Round 1 starts 
 | Website | https://www.web3-ttg.com |
 | Brand / Token Update SVG | https://www.web3-ttg.com/brand/token/ttg-logo-32.svg |
 | This repo | https://github.com/traveltrustlabs/TravelTrust-TTG-Official |
-| Human / Etherscan / press | traveltrust.ir@gmail.com |
+| Human / Etherscan / press | contact@web3-ttg.com |
 | System mail (OTP only) | noreply@web3-ttg.com — not for human support |
 
 ## Disclaimer

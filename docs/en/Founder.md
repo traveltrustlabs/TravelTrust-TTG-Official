@@ -12,7 +12,7 @@
 | X | https://x.com/swardtm |
 | Personal GitHub | https://github.com/wejfiowej124234 |
 | Whitepaper attribution | Founder / Maintainer in EN/ZH Mainnet Edition whitepaper §13 |
-| Project email | `traveltrust.ir@gmail.com` |
+| Project email | `contact@web3-ttg.com` |
 | Official public docs repo | https://github.com/traveltrustlabs/TravelTrust-TTG-Official (project record) |
 
 ## What this pack does **not** claim

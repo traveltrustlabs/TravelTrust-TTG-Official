@@ -167,7 +167,7 @@ Token Update 32×32 SVG：`https://www.web3-ttg.com/brand/token/ttg-logo-32.svg`
 
 ## 12 · 官方联系
 
-官方人工项目邮箱：`traveltrust.ir@gmail.com`。
+官方人工项目邮箱：`contact@web3-ttg.com`。
 
 `noreply@web3-ttg.com` 只用于系统验证码和事务通知，不是人工审核或 Token Update 身份。
 
@@ -181,7 +181,7 @@ Etherscan 是否要求官方域名邮箱属于外部审核规则。`ETHERSCAN_EM
 | Maintainer | Helena Berger | 官网 `/team/clo` · GitHub `yinhang744-dev` |
 | Maintainer | Rasmus Saar | 官网 `/team/engineer_a` · GitHub `TT-Cc19873` |
 
-项目官方 GitHub：https://github.com/traveltrustlabs/TravelTrust-TTG-Official 。官方仓是项目公开记录，不等于 Founder 个人提交。本文不声称 Founder 在该仓有可归属 commits，也不声称公开 organization/collaborator 身份。项目邮箱 `traveltrust.ir@gmail.com`。没有 LinkedIn。本文不声称学历、公司履历或第三方背书。
+项目官方 GitHub：https://github.com/traveltrustlabs/TravelTrust-TTG-Official 。官方仓是项目公开记录，不等于 Founder 个人提交。本文不声称 Founder 在该仓有可归属 commits，也不声称公开 organization/collaborator 身份。项目邮箱 `contact@web3-ttg.com`。没有 LinkedIn。本文不声称学历、公司履历或第三方背书。
 
 ## 要点
 

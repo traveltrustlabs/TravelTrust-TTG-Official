@@ -167,7 +167,7 @@ Conversion is not open. The traveler App is in development and not listed on sto
 
 ## 12 · Official contact
 
-Official human project email: `traveltrust.ir@gmail.com`.
+Official human project email: `contact@web3-ttg.com`.
 
 `noreply@web3-ttg.com` is system mail for verification codes and transactional notices only. It is not a human listing or Token Update identity.
 
@@ -181,7 +181,7 @@ Whether Etherscan requires a mailbox on the official domain remains an external 
 | Maintainer | Helena Berger | Website `/team/clo` · GitHub `yinhang744-dev` |
 | Maintainer | Rasmus Saar | Website `/team/engineer_a` · GitHub `TT-Cc19873` |
 
-Official GitHub: https://github.com/traveltrustlabs/TravelTrust-TTG-Official. The official repository is a project record, not Founder-authored commits. This paper does not claim Founder commits there and does not claim public organization or collaborator membership. Project email: `traveltrust.ir@gmail.com`. There is no LinkedIn. This paper does not claim degrees, employer history, or third-party endorsements.
+Official GitHub: https://github.com/traveltrustlabs/TravelTrust-TTG-Official. The official repository is a project record, not Founder-authored commits. This paper does not claim Founder commits there and does not claim public organization or collaborator membership. Project email: `contact@web3-ttg.com`. There is no LinkedIn. This paper does not claim degrees, employer history, or third-party endorsements.
 
 ## Key points
 

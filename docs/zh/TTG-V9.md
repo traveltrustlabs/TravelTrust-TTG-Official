@@ -1,6 +1,6 @@
 # TTG V9
 
-**事实：** TravelTrust Web3 发布说明 **V2** · Official www Living Pin `e31df9c9c` · Fly `01M2JJ0TDN99`  
+**事实：** TravelTrust Web3 发布说明 **V2** · Official www Living Pin `e31df9c9c` · Fly `01M2JY6EHNB` · bake `2026-09-15T16:24:54Z`  
 **Mainnet：** 合约已部署 · 兑换尚未开放 · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
 - Genesis 总量：**25,000,000,000,000 TTG（25T）**

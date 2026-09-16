@@ -1,5 +1,16 @@
 # Public changelog (documentation pack)
 
+## 2026-09-16 — PUBLIC-DISCLOSURE-CONTACT-DOMAIN-ALIGNMENT
+
+- Parent freeze: `traveltrustlabs/TravelTrust-TTG-Official@3c8136d71badd0cec0f32a6ebb91a32bba55d709` (Gmail-era public main)
+- Official www highest fact: **OFFICIAL_FULL_LISTING_READINESS_PASS_STOP** · Fly release **586** · `deployment-01M2JY6EHNB673R46MTZT9HSSH` · bake `e31df9c9c5…` / `2026-09-15T16:24:54Z`
+- Living public human identity: **only** `contact@web3-ttg.com`
+- `noreply@web3-ttg.com` remains system/OTP only — not a human listing contact
+- Gmail is **not** the current public project identity (2026-09-15 CHANGELOG row below stays historical)
+- Website `web3-ttg.com` and Requester/Official Project Email `contact@web3-ttg.com` are domain-consistent
+- `ETHERSCAN_EMAIL_DOMAIN_MATCH` stays **UNKNOWN** until Etherscan accepts item 5
+- `TT_PRODUCTION_GO` **NO_GO** · `ETHERSCAN_RESUBMIT` **NO** · #4 **PENDING** · Token Logo/Verified **UNKNOWN**
+
 ## 2026-09-15 — PUBLIC-DISCLOSURE-LISTING-READINESS (published on public main)
 
 - Parent freeze: `traveltrustlabs/TravelTrust-TTG-Official@918fef193a8e74833aaabf2bce093ae948c75d12`

@@ -2,7 +2,7 @@
 
 **SUPERSEDED 2026-09-15** by [PUBLIC-DISCLOSURE-LISTING-READINESS-CANDIDATE-20260915.md](PUBLIC-DISCLOSURE-LISTING-READINESS-CANDIDATE-20260915.md) and [PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md](PUBLIC-DISCLOSURE-LISTING-READINESS-REALITY-20260915.md).
 
-This file is a **historical** alignment pack. Official www pin `f438ad803` is **not** the living website. Living Official www is `e31df9c9c5…` · Fly `deployment-01M2JJ0TDN99SNBJ7SPHE0AF5C`. The public GitHub freeze parent is `918fef193`. Do **not** treat this document as current identity, contact, or pin.
+This file is a **historical** alignment pack. Official www pin `f438ad803` is **not** the living website. Living Official www is `e31df9c9c5…` · Fly `deployment-01M2JY6EHNB673R46MTZT9HSSH` · bake `2026-09-15T16:24:54Z`. The public GitHub freeze parent of the Gmail-era listing pack is `3c8136d`. Do **not** treat this document as current identity, contact, or pin.
 
 ---
 

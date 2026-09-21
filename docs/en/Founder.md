@@ -8,6 +8,7 @@
 | Check | Value |
 |-------|--------|
 | Name | Sebastian Ward |
+| Independent builder | Yes. Solo Founder; public team lists this person only. |
 | Official profile | https://www.web3-ttg.com/team/founder |
 | X | https://x.com/swardtm |
 | Personal GitHub | https://github.com/wejfiowej124234 |

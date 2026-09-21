@@ -178,10 +178,8 @@ Etherscan 是否要求官方域名邮箱属于外部审核规则。`ETHERSCAN_EM
 | 角色 | 姓名 | 公开核验 |
 |------|------|----------|
 | Founder / Maintainer | Sebastian Ward（塞巴斯蒂安·沃德） | 官网 `/team/founder` · X `@swardtm` · GitHub `wejfiowej124234` |
-| Maintainer | Helena Berger | 官网 `/team/clo` · GitHub `yinhang744-dev` |
-| Maintainer | Rasmus Saar | 官网 `/team/engineer_a` · GitHub `TT-Cc19873` |
 
-项目官方 GitHub：https://github.com/traveltrustlabs/TravelTrust-TTG-Official 。官方仓是项目公开记录，不等于 Founder 个人提交。本文不声称 Founder 在该仓有可归属 commits，也不声称公开 organization/collaborator 身份。项目邮箱 `contact@web3-ttg.com`。没有 LinkedIn。本文不声称学历、公司履历或第三方背书。
+TravelTrust 由创始人个人独立开发并维护。公开团队只列此人。项目官方 GitHub：https://github.com/traveltrustlabs/TravelTrust-TTG-Official 。官方仓是项目公开记录，不等于 Founder 个人提交。本文不声称 Founder 在该仓有可归属 commits，也不声称公开 organization/collaborator 身份。项目邮箱 `contact@web3-ttg.com`。本文不声称学历、公司履历或第三方背书。
 
 ## 要点
 

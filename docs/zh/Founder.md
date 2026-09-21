@@ -8,6 +8,7 @@
 | 核验 | 值 |
 |------|-----|
 | 姓名 | Sebastian Ward（塞巴斯蒂安·沃德） |
+| 独立开发 | 是。创始人一人；公开团队只列此人。 |
 | 官网档案 | https://www.web3-ttg.com/team/founder |
 | X | https://x.com/swardtm |
 | 个人 GitHub | https://github.com/wejfiowej124234 |

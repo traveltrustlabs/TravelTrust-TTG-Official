@@ -16,7 +16,7 @@ Traveler App                  →  only capabilities that already exist (not sto
 
 ## Founder / maintainer
 
-TravelTrust is founded and maintained by **Sebastian Ward** (Founder & Lead Developer).
+TravelTrust is independently built and maintained by **Sebastian Ward** (Founder & Lead Developer). The public team lists this person only.
 
 Public verification:
 

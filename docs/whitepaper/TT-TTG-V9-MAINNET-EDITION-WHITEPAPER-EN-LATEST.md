@@ -178,10 +178,8 @@ Whether Etherscan requires a mailbox on the official domain remains an external 
 | Role | Name | Public checks |
 |------|------|---------------|
 | Founder / Maintainer | Sebastian Ward | Website `/team/founder` · X `@swardtm` · GitHub `wejfiowej124234` |
-| Maintainer | Helena Berger | Website `/team/clo` · GitHub `yinhang744-dev` |
-| Maintainer | Rasmus Saar | Website `/team/engineer_a` · GitHub `TT-Cc19873` |
 
-Official GitHub: https://github.com/traveltrustlabs/TravelTrust-TTG-Official. The official repository is a project record, not Founder-authored commits. This paper does not claim Founder commits there and does not claim public organization or collaborator membership. Project email: `contact@web3-ttg.com`. There is no LinkedIn. This paper does not claim degrees, employer history, or third-party endorsements.
+TravelTrust is independently built and maintained by the Founder. The public team lists this person only. Official GitHub: https://github.com/traveltrustlabs/TravelTrust-TTG-Official. The official repository is a project record, not Founder-authored commits. This paper does not claim Founder commits there and does not claim public organization or collaborator membership. Project email: `contact@web3-ttg.com`. This paper does not claim degrees, employer history, or third-party endorsements.
 
 ## Key points
 

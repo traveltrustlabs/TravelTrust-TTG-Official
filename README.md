@@ -14,6 +14,20 @@ This GitHub repo (external)   →  filtered public copy of the same facts
 Traveler App                  →  only capabilities that already exist (not store-listed)
 ```
 
+## Founder / maintainer
+
+TravelTrust is founded and maintained by **Sebastian Ward** (Founder & Lead Developer).
+
+Public verification:
+
+- Founder GitHub: https://github.com/wejfiowej124234
+- Founder X: https://x.com/swardtm
+- Official website: https://www.web3-ttg.com
+- Official docs repo: https://github.com/traveltrustlabs/TravelTrust-TTG-Official
+- Project email: contact@web3-ttg.com
+
+This repository is documentation-only. It does not contain smart-contract source code.
+
 ## TravelTrust in one paragraph
 
 TravelTrust is a travel-commerce protocol: marketplace matching, on-chain Escrow for traveler principal (USDC), and TTG governance. **TTG** is the governance token (25T genesis · **NO-MINT** after). It is **not** trip collateral. Deposits use Circle USDC.

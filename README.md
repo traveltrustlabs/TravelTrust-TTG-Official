@@ -64,7 +64,7 @@ Public exchange is **five short windows** (about 3.905% of 25T). Round 1 starts 
 | Security | [SECURITY.md](SECURITY.md) |
 | Glossary | [GLOSSARY.md](GLOSSARY.md) |
 
-**PDF twins regenerated 2026-09-15 from the markdown above** (same V2 addresses, 3%/5%/7% person keys, DAO 35%, five-round UTC calendar). Markdown + PDF + Official www are the living public facts for those items.
+**PDF twins regenerated 2026-09-21 from the markdown above** (same V2 addresses, 3%/5%/7% person keys, DAO 35%, five-round UTC calendar, Founder-only attribution). Markdown + PDF + Official www are the living public facts for those items.
 
 ## Deployment status (public)
 

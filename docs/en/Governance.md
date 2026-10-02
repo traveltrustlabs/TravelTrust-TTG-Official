@@ -1,6 +1,6 @@
 # Governance
 
-**Upstream:** TravelTrust Web3 release notes **table 1-01** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Upstream:** TravelTrust Web3 release notes **table 1-01** · **≠** Fully Active
 
 ```text
 02 Governor → 03 12h door (Official delay **12h**)

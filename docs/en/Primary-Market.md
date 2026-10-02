@@ -1,7 +1,7 @@
 # Primary Market
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet remint V1:** five-round calendar is in Norm constants (round 1 **2026-11-12 09:00 UTC**). Seeded in the genesis transaction. Exchange windows still follow the calendar; buying before start reverts. **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet remint V1:** five-round calendar is in Norm constants (round 1 **2026-11-12 09:00 UTC**). Seeded in the genesis transaction. Exchange windows still follow the calendar; buying before start reverts. **≠** Fully Active
 
 Five short Norm windows via NEW Batch Primary Market + PublicSaleVault (Official release names: Genesis calibration / Community early bird / Builder round / Public round / Final public round; about **3.905%** of 25T).
 

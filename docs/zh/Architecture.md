@@ -1,7 +1,7 @@
 # 架构
 
 **上游：** Documentation Truth Baseline · `V9_DOCUMENTATION_FULL_CONVERGENCE_PASS` · `TTG_V9_MAINNET_EDITION_WHITEPAPER_PASS` · Design Lock **DL_R1**  
-**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active
 
 TravelTrust Web3 活名册 **只有表 1-01 十五台**（干什么以发布说明 HTML 为准）。2026-09-12 remint **换了门牌**；旧 KEEP 11/12 不是现行针。
 

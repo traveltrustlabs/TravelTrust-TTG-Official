@@ -1,6 +1,6 @@
 # CountryFeeRouter
 
-**Upstream:** TravelTrust Web3 release notes **table 1-01** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Upstream:** TravelTrust Web3 release notes **table 1-01** · **≠** Fully Active
 
 - Platform fee: **500 bps (5%)** · governance only
 - Active regional steward: **45%** to registered wallet · **55%** to living project pool (#05)

@@ -1,7 +1,7 @@
 # 代币经济
 
 **上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active
 
 > 下文 Phase1 Norm 钱包地址为白皮书 §0 **设计披露事实** — **非** Wave 2 主网登记包（V9 Mainnet Reality 后发布）。
 

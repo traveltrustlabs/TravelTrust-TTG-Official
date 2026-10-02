@@ -1,6 +1,6 @@
 # CountryFeeRouter
 
-**上游：** TravelTrust Web3 发布说明 **表 1-01 · 十五台** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**上游：** TravelTrust Web3 发布说明 **表 1-01 · 十五台** · **≠** Fully Active
 
 - 平台费：**500 bps（5%）** · 仅治理可改
 - 有 Active 区域主理人：平台费 **45%** → 登记钱包 · **55%** → 活项目美元池（#05）

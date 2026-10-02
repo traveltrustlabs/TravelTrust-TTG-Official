@@ -1,6 +1,6 @@
 # ProjectPool
 
-**Upstream:** living TravelTrust Web3 release notes **table 1-01 · fifteen machines** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Upstream:** living TravelTrust Web3 release notes **table 1-01 · fifteen machines** · **≠** Fully Active
 
 - Official sink for primary-sale USDC and fee shares routed to the pool
 - Ops spend: propose → 12h Timelock (#03) → `to` = new 15 `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` (**not 14**)

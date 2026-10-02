@@ -1,7 +1,7 @@
 # Legacy Policy
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active
 
 Historical evidence is retained. It is **not** Official V9 ACTIVE truth.
 

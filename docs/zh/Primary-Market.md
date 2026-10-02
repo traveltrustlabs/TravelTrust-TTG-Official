@@ -1,7 +1,7 @@
 # 一级市场
 
 **上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet remint V1：** 五轮日历写入 Norm 常数（首轮 **2026-11-12 09:00 UTC**）· 创世当笔 `seedBatchesFromNorm` · 兑换窗口仍按日历，未到点不能买 · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet remint V1：** 五轮日历写入 Norm 常数（首轮 **2026-11-12 09:00 UTC**）· 创世当笔 `seedBatchesFromNorm` · 兑换窗口仍按日历，未到点不能买 · **≠** Fully Active
 
 NEW Batch Primary Market + PublicSaleVault 执行 Norm 五轮短窗口（官网发布说明名称：创始校准 / 社区早鸟 / 建设者轮 / 公开轮 / 最终公开轮；合计约占 25T 的 **3.905%**）。
 

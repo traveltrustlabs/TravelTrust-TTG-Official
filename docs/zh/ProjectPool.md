@@ -1,6 +1,6 @@
 # ProjectPool
 
-**上游：** TravelTrust Web3 发布说明 **表 1-01 · 十五台** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**上游：** TravelTrust Web3 发布说明 **表 1-01 · 十五台** · **≠** Fully Active
 
 - Official 公售 USDC 与汇入总池份额的归集合约
 - 运营拨付：propose → 12h 延迟柜（#03）→ `to` = 新 15 `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1`（**不是 14**）

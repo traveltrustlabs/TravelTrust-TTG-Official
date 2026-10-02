@@ -1,7 +1,7 @@
 # Verification
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active
 
 - TTG V9 Phase1 source verified on Etherscan (creation bytecode Exact Match path per runbook)
 - Public docs must match Documentation Truth Baseline addresses exactly

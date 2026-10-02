@@ -1,7 +1,7 @@
 # Legacy 政策
 
 **上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active
 
 历史证据保留，**不是** Official V9 ACTIVE 真值。
 

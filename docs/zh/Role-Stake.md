@@ -1,7 +1,7 @@
 # Role Stake
 
 **上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS（Stake Layer Split · Guide Per-Order Bond）  
-**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active
 
 | 角色 | 状态 | 门槛 / 履约 |
 |------|------|-------------|

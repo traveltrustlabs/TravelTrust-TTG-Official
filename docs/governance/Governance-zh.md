@@ -1,6 +1,6 @@
 # 治理
 
-**上游：** TravelTrust Web3 发布说明 **表 1-01** · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**上游：** TravelTrust Web3 发布说明 **表 1-01** · **≠** Fully Active
 
 ```text
 02 投票机 → 03 十二小时门（Official 延迟 **12h**）

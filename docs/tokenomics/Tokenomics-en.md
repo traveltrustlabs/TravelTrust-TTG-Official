@@ -1,7 +1,7 @@
 # Tokenomics
 
 **Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
-**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active
 
 > Phase1 Norm wallet addresses below are **design-disclosure** facts from the whitepaper §0 — **not** the Wave 2 Mainnet registry pack (published after V9 Mainnet Reality).
 

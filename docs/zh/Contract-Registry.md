@@ -25,4 +25,4 @@
 
 打开某一台的 20 栏说明书：卫星仓 [TravelTrust-Web3-发布说明.html](https://github.com/TT-Cc19873/TravelTrust-TTG-Primary-Market/blob/main/TravelTrust-Web3-%E5%8F%91%E5%B8%83%E8%AF%B4%E6%98%8E.html) → 表 1-01 → **打开**。
 
-**11 RETIRED / HISTORICAL：** 更旧 `0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6` 与旧活 `0xcF5E02a81f10f2d6fa7BEbBb5baE3ADf658cFFFE` 只解析旧单，禁止 runtime / default / fallback / 新订单。现行 11 = 上表。书面生产放行尚未作出。Official API + www 已换针。Owner **关 pending** 后新 11 信封开；广播仍关。App 安装包 / TestFlight 未换。附属 DAO `0x6fc3Be4999DE2Ad648C70e72076a66A7cB90a3c1` · Activity `0xAAc1A74d6b76405427102b602a8d7fE320f89de8`（创世 0）。
+**11 RETIRED / HISTORICAL：** 更旧 `0xEE0BE3a8a8658E06c44539deD758Fb70A7f3C1C6` 与旧活 `0xcF5E02a81f10f2d6fa7BEbBb5baE3ADf658cFFFE` 只解析旧单，禁止 runtime / default / fallback / 新订单。现行 11 = 上表。书面生产放行尚未作出。Official API + www 已换针。新 11 信封已解锁；链上广播仍关闭。App 安装包 / TestFlight 未换。附属 DAO `0x6fc3Be4999DE2Ad648C70e72076a66A7cB90a3c1` · Activity `0xAAc1A74d6b76405427102b602a8d7fE320f89de8`（创世 0）。

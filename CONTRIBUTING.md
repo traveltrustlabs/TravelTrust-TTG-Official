@@ -12,7 +12,7 @@
 ## Forbidden without Owner written gate
 
 - Mutating DL_R1 Solidity / bytecode / Phase1 addresses / live params
-- Claiming `MAINNET_FULLY_ACTIVE` or flipping `TT_PRODUCTION_GO`
+- Claiming `MAINNET_FULLY_ACTIVE` or flipping written production go-live
 - Publishing secrets, `.env`, private keys, or internal evidence packs
 - Auto push / publicize / Official www or Production `/meta`·Indexer cutover
 

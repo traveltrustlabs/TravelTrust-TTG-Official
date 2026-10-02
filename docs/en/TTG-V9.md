@@ -1,14 +1,12 @@
 # TTG V9
 
-**Facts:** TravelTrust Web3 发布说明 **V2** · Official www Living Pin `e31df9c9c` · Fly `01M2JY6EHNB` · bake `2026-09-15T16:24:54Z`  
-**Mainnet:** contracts deployed · conversion not open · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**Upstream:** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
+**Mainnet:** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
 - Genesis supply: **25,000,000,000,000 TTG (25T)**
 - **NO-MINT** after genesis
-- Supply decreases only via **Governance Burn** (Governor → 12h Timelock → authorized burner)
+- Supply decreases only via **Governance Burn** (Governor → SoloTimelock → authorized burner)
 - Non-proxy token body; monetary invariants hard-coded
-- **Table 1-01 · 01 governance token** (vote, sale, steward metering; no mint): `0xd9965802ff0A9DAB5d0E13392dA797cd6D13ee51`
+- Living token (table 1-01 · **01**): `0x01dc2706c4E0F82995d63042c06873d1DC6B3AEa` · broadcast · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+- Old 01 `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` RETIRED
 - TTG is **not** default travel-order settlement (USDC is)
-- Primary market: Official release five short windows (Genesis calibration → Final public round) · **not open** · [Primary Market](Primary-Market.md)
-- Official PM/Vault Timelock delay: **12h** (Phase1 48h = LEGACY) · [Governance](Governance.md)
-- Living address roster: **table 1-01** [Contract Registry](Contract-Registry.md)

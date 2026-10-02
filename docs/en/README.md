@@ -1,9 +1,9 @@
 # TravelTrust Web3 · Official Docs (English)
 
-**Public documentation hub**  
-**Mainnet status:** contracts deployed · conversion **not open** · traveler App **in development** (stores not listed) · **≠** `TT_PRODUCTION_GO`
+**Public documentation hub** · Design Lock **DL_R1**  
+**Mainnet status:** contracts deployed · conversion not open · traveler App in development · **≠** claiming fully active Mainnet product
 
-> Living token/contract facts: TravelTrust Web3 发布说明 **V2**. Official www displays 01 / 06 / 09. This repo copies those facts for external verification. The **Etherscan verified-source pack** remains **Wave 2**.
+> **“Mainnet Edition” whitepaper** names the target protocol edition — **not** a claim that V9 is fully live on Mainnet. Phase1 facts: whitepaper §0 and [Mainnet Deployments](Mainnet-Deployments.md). The **Etherscan verified-source pack** remains **Wave 2**.
 
 ## Deployments (this repository)
 
@@ -28,7 +28,6 @@
 - [Mainnet Deployments](Mainnet-Deployments.md)
 - [Contract Registry](Contract-Registry.md)
 - [Verification](Verification.md)
-- [Founder](Founder.md)
 - [Legacy Policy](Legacy-Policy.md)
 - [Whitepaper](Whitepaper.md)
 

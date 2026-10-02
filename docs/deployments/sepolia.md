@@ -4,11 +4,9 @@
 **Chain:** Sepolia `11155111`  
 **Sepolia Reality:** `IN_PROGRESS` (single 12h Timelock certification)  
 **AUDIT_1_CANDIDATE_SHA:** `b19b85810c22677d243a82d06ebec8ebcb4d4b47`  
-**`TT_PRODUCTION_GO`:** NO_GO  
 
 > **Honesty rule:** This page describes **testnet rehearsal** addresses only.  
-> Sepolia also uses a **12h** Timelock, on a **different chain and address** than Mainnet V2 #03 (`0x2Cb9f0FD770B50931f0a4cd463113bBA39331acb`).  
-> **Do not** treat Sepolia deploy as Mainnet production GO or Official www Web3 SSOT.  
+> **Do not** treat Sepolia deploy as Mainnet production go-live or Official www Web3 SSOT.  
 > Mainnet deployment pack (`docs/deployments/mainnet.md`) is published **after** V9 Mainnet Reality closes.
 
 ## Key contracts (Sepolia · 29/29 deploy)
@@ -36,7 +34,7 @@
 | Surface | URL / contact |
 |---------|----------------|
 | Website | https://www.web3-ttg.com |
-| Contact | contact@web3-ttg.com |
+| Contact | traveltrust.ir@gmail.com |
 | This repo | Documentation only — no Solidity source |
 
 ---

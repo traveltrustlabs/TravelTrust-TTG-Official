@@ -1,0 +1,26 @@
+{
+  "name": "TravelTrust TTG",
+  "timestamp": "2026-10-02T00:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 2
+  },
+  "logoURI": "https://www.web3-ttg.com/brand/token/ttg-logo-512.png",
+  "keywords": [
+    "traveltrust",
+    "ttg",
+    "governance",
+    "ethereum"
+  ],
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0xd9965802ff0A9DAB5d0E13392dA797cd6D13ee51",
+      "name": "TravelTrust Governance",
+      "symbol": "TTG",
+      "decimals": 18,
+      "logoURI": "https://www.web3-ttg.com/brand/token/ttg-logo-512.png"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 # TravelTrust Whitepaper
 
-TravelTrust is a decentralized travel-commerce protocol. Travelers lock trip deposits in USDC escrow. TTG is for governance and Region Steward seats, not the default settlement asset for orders. Addresses follow the Official Protocol page. Send funds only to addresses listed here.
+> **Lost-TTG remint.** Living roster is [Official protocol](https://www.web3-ttg.com/protocol) table 1-01. Old 01–08/10–14 contract pins are RETIRED. 09 Circle USDC is unchanged. Person keys 15 / 3% / 7% are replaced. Do not execute old 03. Do not queue old #1.
+
+TravelTrust is a decentralized travel-commerce protocol. Travelers lock trip deposits in USDC escrow. TTG is for governance and Region Steward seats, not the default settlement asset for orders. Addresses follow table 1-01. Send funds only to **new** addresses listed here.
 
 > General information only. This is not an offer of securities or virtual assets in any jurisdiction, and not investment, tax, or legal advice. Terms of service and executed agreements control.
 
@@ -8,13 +10,14 @@ TravelTrust is a decentralized travel-commerce protocol. Travelers lock trip dep
 
 ## 0 · What is true now
 
-Trip deposits can lock in escrow under the protocol. Exchanging TTG is separate, and the window is not open to the public. The traveler App is in development and not listed on App Store or Google Play. There is no written production go-live.
+The old stack keys are lost. The new stack is not on mainnet yet. The sale window follows the calendar, not broadcast day. Round 1 opens **2026-11-12 09:00 UTC**. There is no written production go-live.
 
 | Fact | Now |
 |------|-----|
-| Protocol deployed on Ethereum mainnet | Yes |
-| Public-sale window open to the public | No |
-| Traveler App listed on App Store / Google Play | No |
+| Old fifteen (except 09) | Lost / RETIRED |
+| New fifteen mainnet broadcast | No · needs the remint broadcast passphrase |
+| 08 | Empty slot this batch · not deployed |
+| Public-sale window open to the public | No · even after broadcast, wait for 09:00 UTC |
 | Written production go-live | No |
 
 ---
@@ -23,11 +26,12 @@ Trip deposits can lock in escrow under the protocol. Exchanging TTG is separate,
 
 The protocol splits a travel sale into checkable on-chain paths:
 
-- Marketplace: discovery and matching
-- Escrow: milestone lock and release of traveler principal (USDC on mainnet)
-- Platform fee: 5% on verified trips, split by country
+- Marketplace: discovery and matching. Travel / merchant / acquisition open **only** in ten ISO countries: `CN US FR ES JP TH SG KR AU AE`
+- Escrow: both parties scan to pay the deposit; traveler confirms completion, then release (guide does not sign). Mainnet settlement is USDC
+- Performance bond: default 10% of order, cap 20%. Complete → back to the guide; incomplete → 100% to the traveler
+- Platform fee: 5% on verified trips (taken on 11), then 12 → 13 → **04** by country. **08 is not deployed this batch**
 - Region Steward: stake TTG for a seat and share that country’s real platform fees — not minted rewards
-- Governance: sale, vault, and parameter changes wait 12 hours
+- Governance: genesis seeds the five-round calendar in the same tx. Later window/price/fee changes wait 12 hours
 
 Merchants and guides do not stake TTG by default. Their performance uses order-side bonds, separate from steward seats.
 
@@ -43,7 +47,7 @@ TTG cannot mint after genesis, so steward pay cannot be printed as new tokens. T
 
 That does two jobs at once: TTG is locked in a governance seat, and the staker shares real regional flow instead of a low APR unrelated to sales.
 
-Initial ten-country bps: CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/AE 150. The seat-contract upgrade is still waiting on the 12-hour delay. The fee split is already in the fee rules.
+Initial ten-country bps (of live supply): CN/US 4% (400) · FR/ES 4.5% (450) · JP/TH 2.5% (250) · SG/KR 2% (200) · AU/AE 1.5% (150). One seat per country. Steward exit: after 24×30 days you may apply; **the seat empties and the 45% cut stops that day**; the next applicant may occupy the same day; TTG returns in one shot after 90 more days. Website matches chain. The 300,000 USDC access fee is `10.payStewardAccessFee` to new 14.
 
 ---
 
@@ -63,29 +67,29 @@ Initial ten-country bps: CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/
 
 | Bucket | Share | Amount | Destination |
 |--------|-------|--------|-------------|
-| Public sale vault | 50% | 12.5T | #07 `0x1c9dBa15eBFB31Dd4BDa608b7b003B3ba4a61287` |
-| DAO treasury | 35% | 8.75T | DAO `0x063174C62A2878eB8E6c033363b8f1bA1aE9cE3b` (admin = #03) |
+| Public sale vault | 50% | 12.5T | New 07 PublicSaleVault `0x5Ce1f7A8a9560aFf257B184F012e87B7ee2f3A6A` |
+| Governance treasury | 35% | 8.75T | Affiliate Governed DAO Treasury (admin = new 03; 03 is the door, not the vault) |
 | Team | 3% | 0.75T | `0xfBe514a0863e8F8278Fe8996F8F83CCa28734A81` |
-| Marketing | 5% | 1.25T | #15 `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` |
-| Treasury / ops | 7% | 1.75T | #14 `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` |
+| Marketing | 5% | 1.25T | `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` (same as 15) |
+| Treasury / ops | 7% | 1.75T | `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` (same as 14) |
 
-#15 is the 12-hour-delay admin and the project-pool ops payee. #14 is the pause key and the 300,000 USDC access-fee payee. 35% does **not** sit in the 12-hour door itself.
+15 deployer/scheduler `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` **is** the 5% bucket. 14 pause key `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` **is** the 7% bucket. Old 3% `0x010365…` / old 15 `0xe1e732…` / old 7%+14 `0xF34804…` are RETIRED.
 
 ---
 
-## 5 · Public exchange (five batches)
+## 5 · Public exchange (five short windows)
 
-Primary sales run through the batch market and public-sale vault. The window is not open to the public. Caps, prices, and UTC windows match Official www. Together the five windows are about **3.905%** of 25T (**976.25 billion TTG**). Unsold remainder may be burned in part; a burn is not price protection.
+Sales run through the batch market (06) and public-sale vault (07). **Genesis seeds the batches in the same transaction** — do not wait 12 hours to seed. Buying still follows the calendar; a buy before open must fail. Pin `V9_SHORT_WINDOW_FIVE_ROUND`, about **3.905% = 976.25B**. Open **09:00 UTC** (18:00 JST). The rest of the 50% inventory stays in 07.
 
-| Batch | Name | Cap (TTG) | USDC / 1 TTG | UTC window |
-|-------|------|-----------|--------------|------------|
-| 1 | Genesis calibration | 1,250,000,000 | 0.00000100 | 2026-11-12 09:00 → 2026-11-19 09:00 |
-| 2 | Community early bird | 6,250,000,000 | 0.00000300 | 2026-12-03 09:00 → 2026-12-17 09:00 |
-| 3 | Builder round | 31,250,000,000 | 0.00000500 | 2027-01-14 09:00 → 2027-02-04 09:00 |
-| 4 | Public round | 312,500,000,000 | 0.00000700 | 2027-02-25 09:00 → 2027-03-27 09:00 |
-| 5 | Final public round | 625,000,000,000 | 0.00000900 | 2027-04-08 09:00 → 2027-05-23 09:00 |
+| Round | Open (UTC) | Close (UTC) | Window | Cap (TTG) | USDC raw per 1 TTG (6 decimals) | Plain |
+|-------|------------|-------------|--------|-----------|----------------------------------|-------|
+| 1 | 2026-11-12 09:00 | 2026-11-19 09:00 | 7d | 1.25B | 1 | 1 USD ≈ 1,000,000 TTG |
+| 2 | 2026-12-03 09:00 | 2026-12-17 09:00 | 14d | 6.25B | 3 | |
+| 3 | 2027-01-14 09:00 | 2027-02-04 09:00 | 21d | 31.25B | 5 | |
+| 4 | 2027-02-25 09:00 | 2027-03-27 09:00 | 30d | 312.5B | 7 | |
+| 5 | 2027-04-08 09:00 | 2027-05-23 09:00 | 45d | 625B | 9 | |
 
-Batch writes and price changes go through a governance vote and the 12-hour delay. Sale USDC goes to the project pool. A published plan is not a live buy.
+Do not republish the old long-window caps 3.75B / 18.75B / 168.75B / 2025B. Later window or price changes go through a governance vote and the 12-hour delay. Sale USDC goes to the project pool (05).
 
 ---
 
@@ -93,10 +97,11 @@ Batch writes and price changes go through a governance vote and the 12-hour dela
 
 | Rule | Meaning |
 |------|---------|
-| Platform fee rate | 500 bps (5%), governance-only change |
-| Seated steward | 45% to the steward registered wallet, 55% to the project pool (negotiable with team and community; reconfigurable by governance proposal) |
-| No steward | 100% to the project pool |
-| Country key | Escrow orders carry an ISO country code |
+| Live fee path | **11 takes the cut → 12 → 13 → 04 splits by country**. 08 is empty, not the splitter |
+| Platform fee rate | Default 500 bps (5%) on 11; 04 stores a mirror. Change fee = one proposal hitting 11+04; hard cap 10% |
+| Seated steward | 45% to `10.feeSteward`, 55% to the project pool (must sum to 100%; governance may reconfigure) |
+| No steward / exit requested that day | 100% to the project pool |
+| Country key | Escrow orders carry one of the ten ISOs; unlisted codes revert |
 
 Fees come only from verified escrow / settlement paths. There is no separate holder dividend.
 
@@ -107,52 +112,56 @@ Fees come only from verified escrow / settlement paths. There is no separate hol
 | Role | TTG stake | Performance |
 |------|-----------|-------------|
 | Region Steward | Active; see section 2 | Seat plus country platform-fee share |
-| Merchant | Not required | Bond rules independent and unconfirmed |
-| Guide | Not required | Per-order USDC performance bond |
+| Merchant | Not required | Same per-order USDC bond as guides (default 10%, cap 20%) |
+| Guide | TTG not required | Per-order USDC bond; optional identity stake 1000 / 5000 / 10000 USDC, not a booking gate |
 
-The Region Steward access fee is 300,000 USDC to `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E`. It funds the founding team’s start-up costs: protocol development, security and infrastructure, early operations, and payroll. It is separate from the TTG seat stake and is not refundable in the ordinary course.
+The Region Steward access fee is 300,000 USDC via **10 `payStewardAccessFee`** to the **new 14 pause key** `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` (same as 7%). Do not send it to old `0xF34804…`. It funds founding start-up costs, is separate from the TTG seat stake, and is not refundable in the ordinary course.
 
 ---
 
 ## 8 · Project pool
 
-The project pool collects sale USDC and platform-fee shares routed to the pool. Ops spend: propose → 12-hour delay → `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1`. Cumulative spend in any 90-day window is at most 30%.
+The project pool collects sale USDC and platform-fee shares routed to the pool. Ops spend: new 02 propose → new 03 12-hour door → payee written after broadcast. Cumulative spend in any 90-day window is at most 30%. Do not send to old `0xF34804…`.
 
 ---
 
 ## 9 · Governance delay
 
 ```text
-Governor  →  12-hour delay (0x2Cb9f0FD770B50931f0a4cd463113bBA39331acb)
-             Scheduler is #15 0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1
-             (person key, not treasury)
+Governor  →  new 12-hour door `0xafaee79259c831630E6f7Dc5B8885E0Fbe27fb5F`
+             Scheduler is an operations wallet 0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1
+             (not a contract; genesis 5% also lands here; not treasury)
               ├─ Market / Vault / Fee / Stake / Pool
-              └─ Governance burn authorization
+              └─ Affiliate DAO protocolBurn
 ```
 
-No multi-sig administers the 12-hour delay. Send funds only to addresses listed on this page.
+No multi-sig administers the 12-hour delay. Send funds only to new addresses listed on this page. Do not execute old 03 `0xF61880fe…`.
 
 ---
 
 ## 10 · Checkable addresses
 
-Official www lists 01 / 06 / 09. Full V2 roster: [Contract Registry](../en/Contract-Registry.md).
-
 | # | Name | Address | Note |
 |---|------|---------|------|
-| 01 | TTG | `0xd9965802ff0A9DAB5d0E13392dA797cd6D13ee51` | Living token · 25T |
-| 02 | Governor | `0x69fF62475C3ed36B3B8627BfEC980b3047B3bf42` | Living |
-| 03 | 12h Timelock | `0x2Cb9f0FD770B50931f0a4cd463113bBA39331acb` | Living door |
-| 05 | Project pool | `0xD49F33c1f1d806500407550f8e92b0d1b3d725d9` | Sale USDC sink |
-| 06 | Primary market | `0xaB1D74A62e3fBB1c140a9Dfa9bB5b7Fe3F8C7e46` | Seeded · not open |
-| 07 | Vault | `0x1c9dBa15eBFB31Dd4BDa608b7b003B3ba4a61287` | Genesis 12.5T |
-| DAO | 35% treasury | `0x063174C62A2878eB8E6c033363b8f1bA1aE9cE3b` | 8.75T · admin = #03 |
-| 09 | Circle USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | KEEP |
-| 3% | Team | `0xfBe514a0863e8F8278Fe8996F8F83CCa28734A81` | Genesis 0.75T |
-| 5% / 15 | Marketing / scheduler | `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` | Genesis 1.25T |
-| 7% / 14 | Treasury / pause | `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` | Genesis 1.75T |
+| 01 | TTG | `0x01dc2706c4E0F82995d63042c06873d1DC6B3AEa` | Old `0xD5c1Ef9e…c41c9` RETIRED |
+| 02 | Governor | `0xf9D9143bB632096ABeFd943D894c43C04fD16ED4` | Old #1 Canceled · do not queue |
+| 03 | 12-hour delay | `0xafaee79259c831630E6f7Dc5B8885E0Fbe27fb5F` | Door, not a vault · do not execute old 03 |
+| 04 | Fee router | `0x95E794B6Ed6Ce2547b22b220761De106c5f42515` | Live fee sink · reads 10 occupancy |
+| 05 | Project pool | `0x55cBeD4460Ad2bCc0a9F2598af5013415B121d61` | |
+| 06 | Primary market | `0xEaB632241C9c93B9012fc60a834d2D771E620130` | Seeded in genesis · buy waits for 09:00 UTC |
+| 07 | Vault | `0x5Ce1f7A8a9560aFf257B184F012e87B7ee2f3A6A` | Genesis 50% · five rounds sell 3.905% |
+| 08 | Empty slot | **not deployed this batch** | Number kept so 09–15 do not shift |
+| 09 | USDC | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | Circle · remint does not change 09 |
+| 10 | Role stake | `0x3E7C7b2238d90dea4D31A2ee397068CB2ecF1032` | Ten-country seats · 300k access fee |
+| 11 | Escrow factory | `0x61c459f3fdD61a9194D23B26acA9DDC6Df9839aB` | Ten countries only · traveler confirms then release · takes 5% |
+| 12 | Settlement router | `0xEe34DB838cf40b1C9b2AC2248340eFc8Ea8A1C16` | Guide does not sign payout · feeds 13/04 |
+| 13 | Completion adapter | `0x4316FeC59EB5dedf66c9948E66BbBaa9d67294F0` | 11→12→13→04 |
+| 14 | Pause key (person wallet) | `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` | **Also** the 7% bucket |
+| 15 | Scheduler key (person wallet) | `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` | Deployer · **also** the 5% bucket |
+| 3% | Team custody | `0xfBe514a0863e8F8278Fe8996F8F83CCa28734A81` | Not table 1-01 |
+| 7% | Treasury custody | `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` | Not table 1-01 · **same as 14** |
 
-Token Update 32×32 SVG: `https://www.web3-ttg.com/brand/token/ttg-logo-32.svg`. Do not send funds to lost-key 01 `0xD5c1Ef9e…` or Phase1 06 `0xc714E256…`.
+Trip money path: new 11 → 12 → 13 → 04 · USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`. Old factory `0xcF5E02…` / old settlement `0xe5C3ED…` / old 08 FeeRouter `0xa20a2987…` HISTORICAL. Affiliate DAO `0x6fc3Be4999DE2Ad648C70e72076a66A7cB90a3c1` · Activity `0xAAc1A74d6b76405427102b602a8d7fE320f89de8` (genesis 0). Official API / Fly pins live. App / www not cut over. Written production go-live has not been issued.
 
 ---
 
@@ -160,32 +169,15 @@ Token Update 32×32 SVG: `https://www.web3-ttg.com/brand/token/ttg-logo-32.svg`.
 
 No mint after genesis. Holders cannot burn. Governance burn waits 12 hours. Platform fee starts at 5%. Pool ops spend is capped at 30% in any 90-day window. This document states living rules and checkable addresses. It does not rewrite the website or observer layer, and it does not issue go-live.
 
-Conversion is not open. The traveler App is in development and not listed on stores. Regulatory, tax, and jurisdictional access are separate. Production GO remains NO_GO.
+Before broadcast: new addresses are not on chain. After broadcast: genesis has already seeded; buys still follow the calendar; 08 stays empty. Regulatory, tax, and jurisdictional access are separate. Written production go-live has not been issued.
 
 ---
 
-
-## 12 · Official contact
-
-Official human project email: `contact@web3-ttg.com`.
-
-`noreply@web3-ttg.com` is system mail for verification codes and transactional notices only. It is not a human listing or Token Update identity.
-
-Whether Etherscan requires a mailbox on the official domain remains an external reviewer rule. `ETHERSCAN_EMAIL_DOMAIN_MATCH` is **UNKNOWN**. Publishing Gmail as the real official mailbox does not make Token Info item 5 PASS.
-
-## 13 · Attribution
-
-| Role | Name | Public checks |
-|------|------|---------------|
-| Founder / Maintainer | Sebastian Ward | Website `/team/founder` · X `@swardtm` · GitHub `wejfiowej124234` |
-
-TravelTrust is independently built and maintained by the Founder. The public team lists this person only. Official GitHub: https://github.com/traveltrustlabs/TravelTrust-TTG-Official. The official repository is a project record, not Founder-authored commits. This paper does not claim Founder commits there and does not claim public organization or collaborator membership. Project email: `contact@web3-ttg.com`. This paper does not claim degrees, employer history, or third-party endorsements.
-
 ## Key points
 
-- Trip deposits use USDC escrow. TTG is for governance and seats; the exchange window is not open.
-- Region Steward staking locks TTG; yield is that country’s real platform fee (living 45/55, reconfigurable by governance proposal), not inflation rewards. The 300,000 USDC access fee is a start-up cost, not a stake.
-- Genesis split 50 / 35 / 3 / 5 / 7; 25 trillion supply; no mint.
+- Trip deposits use USDC escrow; traveler confirms, then release. TTG is for governance and seats. Five short windows total 3.905%; round 1 opens 2026-11-12 09:00 UTC.
+- Region Steward staking locks TTG; yield is that country’s real platform fee (45/55 while seated; 100% to the pool on the exit day), not inflation rewards. The 300,000 USDC access fee is a start-up cost, not a stake.
+- Genesis split 50 / 35 / 3 / 5 / 7; 25 trillion supply; no mint. 08 is not deployed this batch. Live fees 11→12→13→04.
 - Governance waits 12 hours. Stations 14 and 15 are person keys, not contracts.
 - This page is not a securities offering and does not issue a written production go-live.
 

@@ -1,11 +1,12 @@
 # 白皮书
 
-**事实：** TravelTrust Web3 发布说明 **V2** · Official www Living Pin `e31df9c9c` · Fly `01M2JY6EHNB` · bake `2026-09-15T16:24:54Z`  
-**Mainnet：** 合约已部署 · 兑换尚未开放 · 旅行者 App 正在开发中 · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
+**活名册（对外对齐）：** TravelTrust Web3 发布说明 **表 1-01 · 十五台** — 见 [合约登记](Contract-Registry.md) 与公开仓 https://github.com/traveltrustlabs/TravelTrust-TTG-Official 。创世桶 **50 / 35 / 3 / 5 / 7**。Official 延迟 **12h**（02→03）。已退役地址见白皮书历史附录，**不得**当作现网活地址。
 
-下列 markdown 是对外白皮书正文（地址、25T、五轮日历）的活副本，与官网事实对齐。**PDF 双份已于 2026-09-15 从本 markdown 重出**（同一套 V2 地址 / 日历）。不是招股书或投资要约。
+**上游：** Documentation Truth Baseline · Design Lock **DL_R1** · Whitepaper PASS  
+**Mainnet：** `MAINNET_DEPLOYED_PHASE1` / `TIMELOCK_CUTOVER_PENDING` · **≠** Fully Active · **≠** `TT_PRODUCTION_GO`
 
-- **中文 PDF:** [TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf](../whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.pdf)
-- **English PDF:** [TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf](../whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.pdf)
-- **中文 markdown:** [TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md](../whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md)
-- **English markdown:** [TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md](../whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md)
+> 公开导出复制官网正在提供的长篇（中文一篇、英文一篇）。活地址以表 1-01 为准。
+
+- **中文:** [TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md](../whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-LATEST.md)
+- **English:** [TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md](../whitepaper/TT-TTG-V9-MAINNET-EDITION-WHITEPAPER-EN-LATEST.md)
+- Stamp: `TTG_V9_MAINNET_EDITION_WHITEPAPER_PASS`

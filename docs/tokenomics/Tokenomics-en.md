@@ -9,8 +9,8 @@
 
 | Bucket | Share | Amount | Destination |
 |--------|-------|--------|-------------|
-| Public Sale Vault | 50% | 12.5T | new 07 `0x5Ce1f7A8…3A6A` |
-| Governed DAO Treasury | 35% | 8.75T | `0x6fc3Be4999DE2Ad648C70e72076a66A7cB90a3c1` (admin=03; 03 is the door, not the vault) |
+| Public Sale Vault | 50% | 12.5T | new 07 `0x1c9dBa15eBFB31Dd4BDa608b7b003B3ba4a61287` |
+| Governed DAO Treasury | 35% | 8.75T | `0x063174C62A2878eB8E6c033363b8f1bA1aE9cE3b` (admin=03; 03 is the door, not the vault) |
 | Team | 3% | 0.75T | `0xfBe514a0863e8F8278Fe8996F8F83CCa28734A81` |
 | Marketing | 5% | 1.25T | new 15 `0xee05e6BcC658D3f3900Cc1CACeBE9eef8DbB40B1` |
 | Treasury / pause | 7% | 1.75T | new 14 `0xe3DE92DcB96396E75093A873C231Bb9Dd050346E` |

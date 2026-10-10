@@ -7,6 +7,6 @@
 - **NO-MINT** after genesis
 - Supply decreases only via **Governance Burn** (Governor → SoloTimelock → authorized burner)
 - Non-proxy token body; monetary invariants hard-coded
-- Living token (table 1-01 · **01**): `0x01dc2706c4E0F82995d63042c06873d1DC6B3AEa` · broadcast · **≠** Fully Active
+- Living token (table 1-01 · **01**): `0xd9965802ff0A9DAB5d0E13392dA797cd6D13ee51` · broadcast · **≠** Fully Active
 - Old 01 `0xD5c1Ef9ec730F93e324A1966bD414a7f5ebc41c9` RETIRED
 - TTG is **not** default travel-order settlement (USDC is)

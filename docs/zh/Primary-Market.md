@@ -31,5 +31,5 @@ NEW Batch Primary Market + PublicSaleVault 执行 Norm 五轮短窗口（官网�
 - 价格阶梯不变：`1 / 3 / 5 / 7 / 9` µUSDC per whole TTG（约 `$0.000001` → `$0.000009`）
 - 轮次之间留空档（避开美国感恩节、圣诞/元旦、2027 春节、复活节）。第四轮元宵后开、复活节前收；第五轮复活节后开、仍为 45 天（会碰到五一）。窗口是 `[start, end)`。
 - 日历已写入 remint Norm 常数；创世当笔 seed。公布计划 **不等于** 现在可以买入（须等到 UTC 09:00 开盘）。
-- **公售 USDC → 表 1-01 · 05 项目美元池** `0x55cBeD4460Ad2bCc0a9F2598af5013415B121d61` · 永远不是 Legacy P4Cap / 旧池 `0x7B21…`。旧址 `0x65714bbF…` RETIRED。
-- **06 公售柜台：** `0xEaB632241C9c93B9012fc60a834d2D771E620130` · **07 公售币库：** `0x5Ce1f7A8a9560aFf257B184F012e87B7ee2f3A6A` · 日程 pin 走 **03 十二小时门** `0xafaee79259c831630E6f7Dc5B8885E0Fbe27fb5F`。旧址 `0xc714…` / `0xe873…` RETIRED，禁止当现行针。
+- **公售 USDC → 表 1-01 · 05 项目美元池** `0xD49F33c1f1d806500407550f8e92b0d1b3d725d9` · 永远不是 Legacy P4Cap / 旧池 `0x7B21…`。旧址 `0x65714bbF…` RETIRED。
+- **06 公售柜台：** `0xaB1D74A62e3fBB1c140a9Dfa9bB5b7Fe3F8C7e46` · **07 公售币库：** `0x1c9dBa15eBFB31Dd4BDa608b7b003B3ba4a61287` · 日程 pin 走 **03 十二小时门** `0x2Cb9f0FD770B50931f0a4cd463113bBA39331acb`。旧址 `0xc714…` / `0xe873…` RETIRED，禁止当现行针。

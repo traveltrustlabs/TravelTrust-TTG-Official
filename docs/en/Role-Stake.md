@@ -15,4 +15,4 @@
 **Exit (one mechanism, deployed):** `requestRelease` only after **720 days** (24×30). The same day, the seat is cleared and that country's 45% fee stops; the next person can take the seat that day. Staked TTG is claimed once after **90 days** (vest=0). No USDC refund. Earlier requests revert `TenureNotMet`.
 
 Initial Steward bps: CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/AE 150.  
-Living address (table 1-01 · **10 RoleStake**): does = **steward TTG seat; 300k to new #14, TTG locked in this machine**. `0x3E7C7b2238d90dea4D31A2ee397068CB2ecF1032`. 03 allowlist executed. Old `0xa9839Ef4…` RETIRED. Phase1 `0xf6A1Fb…` = **LEGACY**.
+Living address (table 1-01 · **10 RoleStake**): does = **steward TTG seat; 300k to new #14, TTG locked in this machine**. `0x131fa67a38563c99Aa65B4470d568d8aC738D77b`. 03 allowlist executed. Old `0xa9839Ef4…` RETIRED. Phase1 `0xf6A1Fb…` = **LEGACY**.

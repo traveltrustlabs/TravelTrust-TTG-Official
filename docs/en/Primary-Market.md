@@ -31,5 +31,5 @@ Five short Norm windows via NEW Batch Primary Market + PublicSaleVault (Official
 - Price ladder unchanged: `1 / 3 / 5 / 7 / 9` µUSDC per whole TTG (about `$0.000001` → `$0.000009`)
 - Gaps between rounds skip US Thanksgiving, Christmas/New Year, Lunar New Year 2027, and Easter 2027. Round 4 opens after Lantern Festival and closes before Easter; round 5 opens after Easter (45d; PRC Labour Day falls inside). Windows are `[start, end)`.
 - Calendar is in remint Norm constants; seeded in genesis. A published plan is **not** a live buy window until UTC 09:00.
-- **Sale USDC → table 1-01 · 05 ProjectPoolV2** `0x55cBeD4460Ad2bCc0a9F2598af5013415B121d61` · never Legacy P4Cap / old pool `0x7B21…`. Old `0x65714bbF…` RETIRED.
-- **06 PrimaryMarket:** `0xEaB632241C9c93B9012fc60a834d2D771E620130` · **07 Vault:** `0x5Ce1f7A8a9560aFf257B184F012e87B7ee2f3A6A` · schedule pin via **03 12h Timelock** `0xafaee79259c831630E6f7Dc5B8885E0Fbe27fb5F`. Old `0xc714…` / `0xe873…` RETIRED; do not treat as live.
+- **Sale USDC → table 1-01 · 05 ProjectPoolV2** `0xD49F33c1f1d806500407550f8e92b0d1b3d725d9` · never Legacy P4Cap / old pool `0x7B21…`. Old `0x65714bbF…` RETIRED.
+- **06 PrimaryMarket:** `0xaB1D74A62e3fBB1c140a9Dfa9bB5b7Fe3F8C7e46` · **07 Vault:** `0x1c9dBa15eBFB31Dd4BDa608b7b003B3ba4a61287` · schedule pin via **03 12h Timelock** `0x2Cb9f0FD770B50931f0a4cd463113bBA39331acb`. Old `0xc714…` / `0xe873…` RETIRED; do not treat as live.

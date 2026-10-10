@@ -11,5 +11,8 @@
 
 **禁止：** 把 81 Identity 长期身份质押写成订单履约押。实现审计：**`NEW_ORDER_BOND_MODULE_REQUIRED`**。
 
+
+**退出（一套，已部署）：** 满 **720 天**（24×30）才能 `requestRelease`。申请当天席位空出、该国 45% 停止，下一人当天可占。TTG 再锁 **90 天**后一次取回（vest=0）。不退 USDC。未满 720 天回 `TenureNotMet`。
+
 初始 Steward bps：CN/US 400 · FR/ES 450 · JP/TH 250 · SG/KR 200 · AU/AE 150。  
 活地址（表 1-01 · **10 主理人席位**）：干什么 = **主理人用 TTG 占席；30 万打新 14、币锁本台**。`0x3E7C7b2238d90dea4D31A2ee397068CB2ecF1032`。03 白名单已 execute。旧 `0xa9839Ef4…` RETIRED。Phase1 `0xf6A1Fb…` = **LEGACY**。
